@@ -1,23 +1,27 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import AboutImg from "../../assets/about.png";
+import CV from "../../assets/Alejandro-Canals-Poveda-CV.pdf";
 import Info from "./info";
 
 const About = () => {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My Introduction</span>
+      <h2 className="section__title">Sobre mí</h2>
+      <span className="section__subtitle">Mi Introducción</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__data">
-          <Info />
+        
           <p className="about__description">
-            Frontend developer, I create web page with UI / UX user interface, I
-            have years of experience and many clientes are happy with the
-            project carried out.
+            Apasionado por la tecnología, enfocado en convertirme en programador
+            full stack. <br/>
+            <br/>
+            He dedicado el último año a estudios intensivos y
+            proyectos personales. <br/> <br/>
+            Listo para aplicar mis habilidades y ganas de
+            seguir aprendiendo en un nuevo desafío profesional.
           </p>
 
           <a download="" href={CV} className="button button--flex">

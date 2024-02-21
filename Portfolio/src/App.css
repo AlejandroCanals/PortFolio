@@ -12,11 +12,12 @@
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --title-color-blue:#007AFF;
   --text-color: hsl(var(--hue), var(--sat),46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 
-
+  
   /* Fuente y tipografia */
 
   --body-font: "Poppins", sans-serif;
@@ -162,7 +163,7 @@ img{
 
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: var(--title-color-blue);
   color:var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -170,7 +171,7 @@ img{
 }
 
 .button:hover{
-  background-color: var(--title-color-dark);
+  background-color:#0f9aea;
 }
 
 .button__icon{
