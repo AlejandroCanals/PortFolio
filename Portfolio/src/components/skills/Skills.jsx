@@ -1,20 +1,25 @@
-import React from 'react'
-import "./skills.css"
-import Frontend from './Frontend'
-import Backend from './Backend'
+import React from "react";
+import "./skills.css";
+import Frontend from "./Frontend";
+import Backend from "./Backend";
+import Otras from "./Otras";
 
 const Skills = () => {
-    return (
-        <section className="skills section" id="skills">
-            <h2 className='section__title'>Skills</h2>
-            <span className='section__subtitle'>My Technical level</span>
+  return (
+    <section className="skills section" id="skills">
+      <h2 className="section__title">Skills</h2>
+      <span className="section__subtitle">My Technical level</span>
 
-            <div className="skills__container container grid">
-            <Frontend/>
-            <Backend/>
-            </div>
-        </section>
-    )
-}
+      <div className="skills__container container grid">
+        <Frontend />
+        <Backend />
+      </div>
 
-export default Skills
+      <div className="skills__container__otras container grid">
+        <Otras />
+      </div>
+    </section>
+  );
+};
+
+export default Skills;

@@ -8,8 +8,8 @@ const Qualification = () => {
   };
   return (
     <section className="qualification section">
-      <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My personal Journey</span>
+      <h2 className="section__title">Educación - Experiencia</h2>
+      <span className="section__subtitle"></span>
 
       <div className="qualification__container container">
         <div className="qualification__tabs">
@@ -22,7 +22,7 @@ const Qualification = () => {
             onClick={() => toggleTab(1)}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>
-            Education
+            Educación
           </div>
           <div
             className={
@@ -33,7 +33,7 @@ const Qualification = () => {
             onClick={() => toggleTab(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
-            Experience
+            Experiencia
           </div>
         </div>
 
@@ -47,12 +47,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">Técnico Superior en Sistemas de Telecomunicaciones e Informáticos </h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                IES La torreta - Elche
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2017 – 2019
                 </div>
               </div>
 
@@ -68,52 +68,48 @@ const Qualification = () => {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+       
+
+                
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">Cursos y Certificaciones de Programación</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Courserea - Udemy - FreeCodeCamp - Youtube
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2023 - Presente
                 </div>
               </div>
             </div>
 
-            <div className="qualification__data">
+            <div className="qualification__data" >
+              
               <div>
-                <h3 className="qualification__title">Web Developer</h3>
+                <h3 className="qualification__title">Experto en Transformación Digital</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  FEMPA - Universidad Miguel Hernández <br></br>
+                  Esta formación ofrece una ayuda a la contratación, subvenciona por los fondos
+NextGenerationEU.
                 </span>
+
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2023 - 2024
                 </div>
               </div>
-
+              
               <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+              <span className="qualification__line"></span>
+      
+              <span className="qualification__rounder"></span>
+              
+              
+                
               </div>
+        
             </div>
 
-            <div className="qualification__data">
-              <div></div>
 
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2017 - 2018
-                </div>
-              </div>
-            </div>
           </div>
 
           <div
@@ -125,12 +121,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Design</h3>
+                <h3 className="qualification__title">Técnico de Reparación equipos Informáticos y Microelectrónica</h3>
                 <span className="qualification__subtitle">
-                  Maldivas - Institute
+                  Supergad - Elche
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2019
                 </div>
               </div>
 
@@ -144,30 +140,32 @@ const Qualification = () => {
               <div></div>
 
               <div>
-                <span className="qualification__rounder"></span>
+              <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
-                <span className="qualification__subtitle">Apple - Spain</span>
+                <h3 className="qualification__title">Técnico de Reparación equipos Informáticos y Microelectrónica</h3>
+                <span className="qualification__subtitle">Mobilon - Elche</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2020 - 2023
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Figma - Spain</span>
+                <h3 className="qualification__title">Proyectos , Cursos y Certificaciones de Programación</h3>
+                <span className="qualification__subtitle">Autodidácta - Elche</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2023 - Presente
                 </div>
               </div>
 
               <div>
+               <span className="qualification__line"></span>
                 <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+           
               </div>
             </div>
           </div>

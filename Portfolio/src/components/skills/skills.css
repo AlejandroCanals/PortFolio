@@ -3,6 +3,17 @@
     column-gap: 3rem;
     justify-content: center;
 }
+.skills__container__otras{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0,1);
+    border-radius: 1.25rem;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin-top: 2rem;
+
+
+}
 
 .skills__content{
     background-color: var(--container-color);
@@ -11,6 +22,7 @@
     border-radius: 1.25rem;
 
 }
+
 
 .skills__title{
     font-size: var(--normal-font-size);

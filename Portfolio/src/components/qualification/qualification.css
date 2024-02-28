@@ -1,5 +1,5 @@
 .qualification__container{
-    max-width: 768px;
+    max-width: 900px;
 }
 
 .qualification__tabs{
@@ -37,6 +37,8 @@
 
 .qualification__content{
     display: none;
+    width: 1000px;
+    margin-right: 15rem;
 }
 
 .qualification__content-active{
@@ -46,8 +48,10 @@
 .qualification__data{
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
-    column-gap: 1.5rem;
+    column-gap: 2rem;
+    margin-left: 15rem;
 }
+
 
 .qualification__title{
     font-size: var(--normal-font-size);
