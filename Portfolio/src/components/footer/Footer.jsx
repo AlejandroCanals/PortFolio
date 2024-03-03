@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Canals</h1>
+        <h1 className="footer__title">A.Canals</h1>
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer_link">
@@ -13,34 +13,35 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#projects" className="footer_link">
-              Projects
+ 
+            <a href="#skills" className="footer_link">
+              Skills
             </a>
           </li>
           <li>
-            <a href="#testimonial" className="footer_link">
-              Testimonials
+          <a href="#projects" className="footer_link">
+              Projects
             </a>
           </li>
           </ul>
 
           <div className="footer__social">
             <a
-              href="https://www.instagram.com/"
+              href="https://www.linkedin.com/in/alejandro-canals-poveda-abaa40143/"
               className="footer__social-link"
               target={"_blank"}
             >
-              <i class="uil uil-instagram"></i>
+              <i class="uil uil-linkedin"></i>
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="mailto:alejandrocanals17@gmail.com"
               className="footer__social-link"
               target={"_blank"}
             >
-              <i class="uil uil-dribbble"></i>
+              <i class="uil uil-envelope-check"></i>
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://github.com/AlejandroCanals"
               className="footer__social-link"
               target={"_blank"}
             >

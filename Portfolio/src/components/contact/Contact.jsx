@@ -18,11 +18,10 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Ponerse en contacto</h2>
-      <span className="section__subtitle"> Contact me</span>
+      <span className="section__subtitle"></span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to me</h3>
 
           <div className="contact__info">
             <div className="contact__card">
@@ -51,7 +50,7 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bxl-linkedin-square contact__card-icon"></i>
               <h3 className="contact__card-title">Linked-In</h3>
-              <span className="contact__card-data">user.fb123</span>
+              <span className="contact__card-data"></span>
               <a
                 href="https://www.linkedin.com/in/alejandro-canals-poveda-abaa40143/"
                 className="contact__button"
@@ -64,10 +63,9 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me your project</h3>
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
-              <label className="contact__form-tag">Name</label>
+              <label className="contact__form-tag">Nombre</label>
               <input
                 type="text"
                 name="name"
@@ -87,14 +85,14 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div  contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Mensaje</label>
               <textarea
                 name=""
                 id=""
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Escribe sobre tu projecto"
+                placeholder="Escribe tu mensaje"
               ></textarea>
             </div>
 
