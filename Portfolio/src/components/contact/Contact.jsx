@@ -34,7 +34,7 @@ const Contact = () => {
                 href="mailto:alejandrocanals17@gmail.com"
                 className="contact__button"
               >
-                Write me{" "}
+                Escríbeme{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -43,7 +43,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Teléfono</h3>
               <span className="contact__card-data">604 418 921</span>
               <a href="https://wa.me/604418921" className="contact__button">
-                Write me{" "}
+              Escríbeme{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -55,7 +55,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/alejandro-canals-poveda-abaa40143/"
                 className="contact__button"
               >
-                Write me{" "}
+                Escríbeme{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
