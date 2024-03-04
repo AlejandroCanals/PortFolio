@@ -2,7 +2,6 @@ import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.png";
 import CV from "../../assets/Alejandro-Canals-Poveda-CV.pdf";
-import Info from "./info";
 
 const About = () => {
   return (
