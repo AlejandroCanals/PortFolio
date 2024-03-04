@@ -23,6 +23,12 @@ const Footer = () => {
               Projects
             </a>
           </li>
+
+          <li>
+          <a href="#qualification" className="footer_link">
+              Education
+            </a>
+          </li>
           </ul>
 
           <div className="footer__social">
@@ -48,7 +54,7 @@ const Footer = () => {
               <i class="uil uil-github-alt"></i>
             </a>
           </div>
-            <span className="footer__copy">&#169; Alejandro Canals. All rights reserved</span>
+           
       </div>
     </footer>
   );

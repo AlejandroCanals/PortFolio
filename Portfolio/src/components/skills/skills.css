@@ -23,6 +23,13 @@
 
 }
 
+.skills__icons{
+    width: 20px;
+}
+
+#figma{
+    width: 14px;
+}
 
 .skills__title{
     font-size: var(--normal-font-size);
