@@ -19,7 +19,7 @@ function Projects() {
       <div className="projects__container container grid">
         <div className="projects__content">
           <div>
-            <h3 className="projects__title">Gestor de Reparaciones</h3>
+            <h3 className="projects__title">Gestor Reparaciones</h3>
           </div>
 
           <a href="https://repaircrm.netlify.app/">
@@ -110,7 +110,7 @@ function Projects() {
             <img
               className="projects__img"
               src={MultitareaImg}
-              style={{ height: "191px" }}
+            
               alt=""
             ></img>
           </a>
@@ -188,7 +188,6 @@ function Projects() {
             <img
               className="projects__img"
               src={BienesRaices}
-              style={{ height: "191px" }}
               alt=""
             ></img>
           </a>

@@ -81,21 +81,15 @@
 
 /* For large devices */
 
-@media screen and (max-width:992px) {
+
+
+  /* For medium devices */
+  @media screen and (max-width:768px) {
     .skills__container{
         grid-template-columns: max-content;
         row-gap: 2rem;
-    }
 
-    .skills__container__otras{
-    
-          
     }
-
-  }
-  
-  /* For medium devices */
-  @media screen and (max-width:768px) {
 
     
     .skills__content{

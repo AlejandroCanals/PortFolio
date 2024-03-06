@@ -97,8 +97,13 @@
   }
   
 
+
   
-  @media screen and (max-width:576px) {
+  @media screen and (max-width:800px) {
+    .qualification__data{
+        width: 600px;
+        margin-left: 20rem;
+    }
     .qualification__sections{
         grid-template-columns: initial;
     }
@@ -107,10 +112,18 @@
     }
   }
   
+  @media screen and (max-width:600px) {
+    .qualification__data{
+        width: 400px;
+        margin-left: 28rem;
+    }
+  }
   /* For small devices */
   @media screen and (max-width:350px) {
     .qualification__data{
-        grid-area: 0.5rem;
+        grid-area: 0.2rem;
     }
+
+
   
   }

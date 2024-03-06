@@ -123,7 +123,9 @@
   }
   
   /* For medium devices */
-  @media screen and (max-width:768px) {
+
+  
+  @media screen and (max-width:772px) {
     .contact__container{
         grid-template-columns: 1fr;
         row-gap: 3rem;
@@ -136,11 +138,8 @@
     .contact__form{
         margin: 0 auto;
     }
-    
-  }
-  
-  @media screen and (max-width:576px) {
     .contact__info{
+        
         grid-template-columns: 1fr;
     }
 
