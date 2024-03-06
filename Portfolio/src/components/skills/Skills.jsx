@@ -13,11 +13,15 @@ const Skills = () => {
       <div className="skills__container container grid">
         <Frontend />
         <Backend />
+
       </div>
 
       <div className="skills__container__otras container grid">
         <Otras />
-      </div>
+
+
+        </div>
+      
     </section>
   );
 };

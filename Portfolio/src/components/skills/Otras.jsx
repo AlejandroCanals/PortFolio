@@ -19,7 +19,7 @@ import axios from '../../assets/svg/axios.svg'
 
 const Frontend = () => {
   return (
-    <div className="skills__content__otras">
+    <div className="skills__content">
       <h3 className="skills__title">Otras Herramientas</h3>
       <div className="skills__box">
 

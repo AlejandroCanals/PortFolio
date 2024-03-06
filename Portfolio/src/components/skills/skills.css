@@ -1,19 +1,9 @@
-.skills__container {
+.skills__container, .skills__container__otras {
     grid-template-columns: repeat(2,350px);
     column-gap: 3rem;
     justify-content: center;
 }
-.skills__container__otras{
-    background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0,1);
-    border-radius: 1.25rem;
-    align-items: center;
-    width: 400px;
-    height: 200px;
-    margin-top: 2rem;
 
-
-}
 
 .skills__content{
     background-color: var(--container-color);
@@ -23,6 +13,14 @@
 
 }
 
+
+.skills__container__otras {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem; /* Ajusta el margen superior según sea necesario */
+  }
+
+  
 .skills__icons{
     width: 20px;
 }
@@ -89,17 +87,21 @@
         row-gap: 2rem;
     }
 
+    .skills__container__otras{
+    
+          
+    }
+
   }
   
   /* For medium devices */
   @media screen and (max-width:768px) {
-    .skills__container{
-        grid-template-columns: 1fr;
-    }
+
     
     .skills__content{
         padding: 1.5rem;
     }
+
   }
   
 
