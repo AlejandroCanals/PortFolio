@@ -18,7 +18,7 @@ const About = () => {
             full stack. <br/>
             <br/>
             He dedicado el último año a estudios intensivos y
-            proyectos personales. <br/> <br/>
+            proyectos personales relacionados con la programación. <br/> <br/>
             Listo para aplicar mis habilidades y ganas de
             seguir aprendiendo en un nuevo desafío profesional.
           </p>
