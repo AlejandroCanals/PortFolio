@@ -120,6 +120,8 @@
   .nav__toggle{
     display: block;
   }
+
+  
 }
 
 
@@ -129,7 +131,15 @@
     padding: 2rem 0.25rem 4rem;
   }
 
+
   .nav__list{
     column-gap: 0;
   }
+
+}
+
+
+@media screen and (max-width:300px) {
+
+
 }
