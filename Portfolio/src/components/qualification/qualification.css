@@ -115,13 +115,12 @@
   @media screen and (max-width:600px) {
     .qualification__data{
         width: 400px;
-        margin-left: 28rem;
+        margin-left: 0rem;
     }
 
     .qualification__content{
-       
-        width: 150px;
-        margin-right: 70rem;
+        width: 90%; 
+        margin-right: auto; 
     }
 
   }
