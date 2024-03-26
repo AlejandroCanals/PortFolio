@@ -117,6 +117,13 @@
         width: 400px;
         margin-left: 28rem;
     }
+
+    .qualification__content{
+       
+        width: 150px;
+        margin-right: 70rem;
+    }
+
   }
   /* For small devices */
   @media screen and (max-width:350px) {
