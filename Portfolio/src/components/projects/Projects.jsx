@@ -47,7 +47,7 @@ function Projects() {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times projects__modal-close"
               ></i>
-              <h3 className="projects__modal-title">Gestor de Reparaciones1</h3>
+              <h3 className="projects__modal-title">Gestor de Reparaciones</h3>
               <p className="projects__modal-description">
                 💡 Esta app surge de mi experiencia como técnico en reparaciones
                 electrónicas donde las incidencias se trabajaban con excel y en
@@ -60,6 +60,9 @@ function Projects() {
                 <br />
                 <br />
                 🔧 Incluye un seguimiento automatizado de las mismas.
+                <br />
+                <br />
+                Puedes probarlo usando el usuario admin y la contraseña admin.
               </p>
 
               <h3>Tecnologías Usadas</h3>

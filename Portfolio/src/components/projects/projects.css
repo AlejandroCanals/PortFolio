@@ -213,9 +213,10 @@
 }
 
 @media screen and (max-width:576px) {
-    .projects__modal-content {
-        padding: 4.5rem 1.5rem 2.5rem;
+    .projects__modal-projects{
+        margin-left: 50px;
     }
+
 
     .projects__modal-description {
         padding: 0;
@@ -230,6 +231,10 @@
 
     .projects__content {
         padding-right: 6rem;
+    }
+
+    .projects__modal-projects{
+        margin-left: 20px;
     }
 
 }
