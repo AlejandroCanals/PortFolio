@@ -11,7 +11,7 @@ const Social = () => {
         <i class="uil uil-linkedin"></i>
       </a>
       <a
-        href="https://github.com/AlejandroCanals?tab=repositories"
+        href="https://github.com/AlejandroCanals"
         className="home__social-icon"
         target={"_blank"}
       >
