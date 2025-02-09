@@ -128,22 +128,42 @@ img{
 
 .section {
   padding: 6rem 0 2rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
 }
 
 .section__title{
   font-size: var(--h1-font-size);
   color: var(--text-color);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1rem;
 }
 
 .section__subtitle{
   display: block;
   font-size:  var(--small-font-size);
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 .section__title,
 .section__subtitle{
   text-align: center;
+}
+
+.section__title::after {
+  content: '';
+  position: absolute;
+  bottom: 0; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 3px;
+  background-color: #0f9aea;
+  border-radius: 2px;
 }
 
 /* LAYOUT */

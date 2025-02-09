@@ -12,7 +12,7 @@ const About = () => {
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
         <div className="about__data">
-        
+
           <p className="about__description">
             Apasionado por la tecnología, enfocado en convertirme en programador
             full stack. <br/>
