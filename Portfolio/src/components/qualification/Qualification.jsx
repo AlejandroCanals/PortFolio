@@ -68,48 +68,35 @@ const Qualification = () => {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-       
-
-                
               </div>
               <div>
-                <h3 className="qualification__title">Cursos y Certificaciones de Programación</h3>
+                <h3 className="qualification__title">Experto en Transformación Digital</h3>
                 <span className="qualification__subtitle">
-                  Courserea - Udemy - FreeCodeCamp - Youtube
+                FEMPA - Universidad Miguel Hernández
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Presente
+                  <i className="uil uil-calendar-alt"></i> 2023
                 </div>
               </div>
             </div>
 
             <div className="qualification__data" >
-              
               <div>
-                <h3 className="qualification__title">Experto en Transformación Digital</h3>
+                <h3 className="qualification__title">Cursos, Certificaciones y Proyectos Personales de Programación</h3>
                 <span className="qualification__subtitle">
-                  FEMPA - Universidad Miguel Hernández <br></br>
-                  Esta formación ofrece una ayuda a la contratación, subvenciona por los fondos
-NextGenerationEU.
+                  Courserea - Udemy - FreeCodeCamp - Youtube
                 </span>
 
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2023 - 2024
+                  <i className="uil uil-calendar-alt"></i> 2023 - Presente
                 </div>
               </div>
-              
+
               <div>
-              <span className="qualification__line"></span>
-      
-              <span className="qualification__rounder"></span>
-              
-              
-                
+                <span className="qualification__line"></span>
+                <span className="qualification__rounder"></span>
               </div>
-        
             </div>
-
-
           </div>
 
           <div
@@ -123,10 +110,10 @@ NextGenerationEU.
               <div>
                 <h3 className="qualification__title">Técnico de Reparación equipos Informáticos y Microelectrónica</h3>
                 <span className="qualification__subtitle">
-                  Supergad - Elche
+                  Mobilon - Elche
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2019
+                  <i className="uil uil-calendar-alt"></i> 2019 - 2023
                 </div>
               </div>
 
@@ -145,8 +132,8 @@ NextGenerationEU.
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Técnico de Reparación equipos Informáticos y Microelectrónica</h3>
-                <span className="qualification__subtitle">Mobilon - Elche</span>
+                <h3 className="qualification__title">Proyectos , Cursos y Certificaciones de Programación</h3>
+                <span className="qualification__subtitle">Autodidácta</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2020 - 2023
                 </div>
@@ -155,10 +142,10 @@ NextGenerationEU.
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Proyectos , Cursos y Certificaciones de Programación</h3>
-                <span className="qualification__subtitle">Autodidácta - Elche</span>
+                <h3 className="qualification__title">Programador Junior Full Stack</h3>
+                <span className="qualification__subtitle">Anelis Network - Alicante</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2023 - Presente
+                  <i className="uil uil-calendar-alt"></i> 2024/09 - Presente
                 </div>
               </div>
 

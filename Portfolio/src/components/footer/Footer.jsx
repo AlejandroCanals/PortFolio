@@ -40,7 +40,7 @@ const Footer = () => {
               <i class="uil uil-linkedin"></i>
             </a>
             <a
-              href="mailto:alejandrocanals17@gmail.com"
+              href="mailto:alejandrocanals.dev@gmail.com"
               className="footer__social-link"
               target={"_blank"}
             >

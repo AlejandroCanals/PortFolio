@@ -19,7 +19,7 @@ const Social = () => {
       </a>
 
       <a
-        href="mailto:alejandrocanals17@gmail.com"
+        href="mailto:alejandrocanals.dev@gmail.com"
         className="home__social-icon"
         target={"_blank"}
       >
