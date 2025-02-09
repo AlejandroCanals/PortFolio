@@ -78,6 +78,9 @@
     font-weight: var(--font-medium);
     color: var(--title-color);
 }
+#php{
+    width: 27px;
+}
 
 /* Estilos para Otras Herramientas */
 .skills__container__otras {

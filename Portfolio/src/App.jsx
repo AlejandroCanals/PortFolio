@@ -23,7 +23,6 @@ function App() {
         <Projects />
         <Qualification />
         <Contact/>
-        
       </main>
 
       <Footer/>

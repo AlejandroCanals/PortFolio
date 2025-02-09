@@ -1,6 +1,6 @@
 import React from "react";
 import python from "../../assets/svg/python.svg";
-import flask from "../../assets/svg/flask.svg";
+import php from "../../assets/svg/php.svg";
 import django from "../../assets/svg/django.svg";
 import sql from "../../assets/svg/sql.svg";
 import sqlite from "../../assets/svg/sqlite.svg";
@@ -12,10 +12,10 @@ const Backend = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <img src={python} alt="python svg" className="skills__icons"></img>
+            <img src={php} alt="php svg" id="php" className="skills__icons"></img>
 
             <div>
-              <h3 className="skills__name">Python</h3>
+              <h3 className="skills__name">PHP</h3>
             </div>
           </div>
 
@@ -37,10 +37,10 @@ const Backend = () => {
 
         <div className="skills__group">
           <div className="skills__data">
-            <img src={flask} alt="flask svg" className="skills__icons"></img>
+            <img src={python} alt="python svg" className="skills__icons"></img>
 
             <div>
-              <h3 className="skills__name">Flask</h3>
+              <h3 className="skills__name">Python</h3>
             </div>
           </div>
 

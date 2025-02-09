@@ -44,9 +44,8 @@
 }
 
 /* Active link */
-.active-link,
 .nav__link:hover{
-    color: var(--title-color-dark);
+    color: var(--title-color-blue);
 }
 
 /* Change Background header */
