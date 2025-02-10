@@ -4,7 +4,7 @@ import css from "../../assets/svg/css.svg";
 import javascript from "../../assets/svg/javascript.svg";
 import react from "../../assets/svg/react.svg";
 import tailwind from "../../assets/svg/tailwind.svg";
-import sass from "../../assets/svg/sass.svg"
+import bootstrap from "../../assets/svg/bootstrap.svg"
 
 const Frontend = () => {
   return (
@@ -50,9 +50,9 @@ const Frontend = () => {
           </div>
 
           <div className="skills__data">
-          <img src={sass} alt="sass svg" className="skills__icons"></img>
+          <img src={bootstrap} alt="sass svg" className="skills__icons"></img>
             <div>
-              <h3 className="skills__name">Sass</h3>
+              <h3 className="skills__name">Bootstrap</h3>
             </div>
           </div>
         </div>

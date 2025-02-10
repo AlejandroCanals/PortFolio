@@ -135,7 +135,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">Proyectos , Cursos y Certificaciones de Programación</h3>
                 <span className="qualification__subtitle">Autodidácta</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2023
+                  <i className="uil uil-calendar-alt"></i> 2023 - Presente
                 </div>
               </div>
             </div>
@@ -150,9 +150,8 @@ const Qualification = () => {
               </div>
 
               <div>
-               <span className="qualification__line"></span>
+                <span className="qualification__line"></span>
                 <span className="qualification__rounder"></span>
-           
               </div>
             </div>
           </div>

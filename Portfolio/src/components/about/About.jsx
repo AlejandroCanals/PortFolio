@@ -10,23 +10,20 @@ const About = () => {
       <span className="section__subtitle"></span>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
-        <div className="about__data">
+        <img src={AboutImg} alt="Imagen ilustrativa de un programador" className="about__img" />
 
+        <div className="about__data">
           <p className="about__description">
-            Apasionado por la tecnología, enfocado en convertirme en programador
-            full stack. <br/>
-            <br/>
-            He dedicado el último año a estudios intensivos y
-            proyectos personales relacionados con la programación. <br/> <br/>
-            Listo para aplicar mis habilidades y ganas de
-            seguir aprendiendo en un nuevo desafío profesional.
+          Actualmente, trabajo como programador junior full-stack en una empresa, donde trabajo con tecnologías como PHP, JavaScript, SQL, HTML, CSS y Bootstrap, además de plataformas como WordPress y PrestaShop.
+          </p>
+          <p className="about__description">
+          En mi tiempo libre, sigo ampliando mis conocimientos en React Native y Node.js, desarrollando proyectos personales para mejorar mis habilidades y explorar nuevas tecnologías.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          <a download href={CV} className="button button--flex" id="cv-button">
             Descargar CV
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
