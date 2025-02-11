@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { initGA, logPageView } from "./utils/analytics";
+import React, { useEffect } from "react";
 import "./App.css";
 import React from "react";
 import Header from "./components/header/Header";
@@ -12,10 +13,16 @@ import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 
 function App() {
+  //Google Analytics
+  //En un futuro si uso rutas hay que agregar AnalyticsTracker
+  useEffect(() => {
+    initGA();
+    logPageView();
+  },[])
+
   return (
     <>
       <Header />
-
       <main className="main">
         <Home />
         <About />
@@ -24,11 +31,9 @@ function App() {
         <Qualification />
         <Contact/>
       </main>
-
       <Footer/>
       <ScrollUp/>
     </>
   );
 }
-
 export default App;
