@@ -4,7 +4,7 @@ import "./scrollup.css";
 const ScrollUp = () => {
     window.addEventListener("scroll", function(){
         const scrollUp = this.document.querySelector(".scrollup");
-        // Cuando el scroll es ta mas alto que 560 agrega la class show-scroll 
+        // Cuando el scroll es ta mas alto que 560 agrega la className show-scroll 
         if (this.scrollY >= 560) scrollUp.classList.add
         ("show-scroll");
         else scrollUp.classList.remove("show-scroll");

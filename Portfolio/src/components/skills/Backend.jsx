@@ -1,4 +1,3 @@
-import React from "react";
 import python from "../../assets/svg/python.svg";
 import php from "../../assets/svg/php.svg";
 import django from "../../assets/svg/django.svg";

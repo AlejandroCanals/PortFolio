@@ -34,21 +34,21 @@ const Footer = () => {
             className="footer__social-link"
             target={"_blank"}
           >
-            <i class="uil uil-linkedin"></i>
+            <i className="uil uil-linkedin"></i>
           </a>
           <a
             href="mailto:alejandrocanals.dev@gmail.com"
             className="footer__social-link"
             target={"_blank"}
           >
-            <i class="uil uil-envelope-check"></i>
+            <i className="uil uil-envelope-check"></i>
           </a>
           <a
             href="https://github.com/AlejandroCanals"
             className="footer__social-link"
             target={"_blank"}
           >
-            <i class="uil uil-github-alt"></i>
+            <i className="uil uil-github-alt"></i>
           </a>
         </div>
       </div>
