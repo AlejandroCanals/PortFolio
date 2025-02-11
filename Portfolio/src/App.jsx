@@ -13,7 +13,7 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 
 function App() {
   useEffect(() => {
-    ReactGA.initialize('G-1GT3VH6VZS'); // Inicializa GA4
+    ReactGA.initialize('G-95HPPE1R2Q'); // Inicializa GA4
     ReactGA.send({ hitType: "pageview", page: window.location.pathname, title: "App.jsx" }); // Corrige "hitType"
   }, []);
 
