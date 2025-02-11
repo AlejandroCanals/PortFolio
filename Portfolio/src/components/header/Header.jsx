@@ -3,14 +3,14 @@ import "./header.css";
 
 const Header = () => {
   /* Toogle Menu */
-  const [Toogle, showMenu] = useState(false);
+  const [toogle , showMenu] = useState(false);
   return (
     <header className="header">
       <nav className="nav container">
         <a href="#home" className="nav__logo">
           A.Canals
         </a>
-        <div className={Toogle ? "nav__menu show-menu" : "nav__menu "}>
+        <div className={toogle ? "nav__menu show-menu" : "nav__menu "}>
           <ul className="nav__list grid">
             <li className="nav__item">
               <a href="#home" className="nav__link active-link">
@@ -48,12 +48,12 @@ const Header = () => {
           </ul>
 
           <i
-            class="uil uil-times nav__close"
-            onClick={() => showMenu(!Toogle)}
+            className="uil uil-times nav__close"
+            onClick={() => showMenu(!toogle)}
           ></i>
         </div>
-        <div className="nav__toggle" onClick={() => showMenu(!Toogle)}>
-          <i class="uil uil-apps"></i>
+        <div className="nav__toggle" onClick={() => showMenu(!toogle)}>
+          <i className="uil uil-apps"></i>
         </div>
       </nav>
     </header>
