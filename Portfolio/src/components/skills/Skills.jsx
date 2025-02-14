@@ -1,8 +1,7 @@
-import React from "react";
 import "./skills.css";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
-import Otras from "./Otras";
+import Tools from "./Otras";
 
 const Skills = () => {
   return (
@@ -16,7 +15,7 @@ const Skills = () => {
       </div>
 
       <div className="skills__container__otras container">
-        <Otras />
+        <Tools />
       </div>
     </section>
   );

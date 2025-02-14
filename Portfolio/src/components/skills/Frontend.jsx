@@ -1,4 +1,3 @@
-import React from "react";
 import html from "../../assets/svg/html.svg";
 import css from "../../assets/svg/css.svg";
 import javascript from "../../assets/svg/javascript.svg";
@@ -13,21 +12,21 @@ const Frontend = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-          <img src={html} alt="html svg" className="skills__icons"></img>
+            <img src={html} alt="html svg" className="skills__icons"></img>
             <div>
               <h3 className="skills__name">HTML</h3>
             </div>
           </div>
 
           <div className="skills__data">
-          <img src={css} alt="css svg" className="skills__icons"></img>
+            <img src={css} alt="css svg" className="skills__icons"></img>
             <div>
               <h3 className="skills__name">CSS</h3>
             </div>
           </div>
 
           <div className="skills__data">
-          <img src={javascript} alt="javascript svg" className="skills__icons"></img>
+            <img src={javascript} alt="javascript svg" className="skills__icons"></img>
             <div>
               <h3 className="skills__name">Javascript</h3>
             </div>
