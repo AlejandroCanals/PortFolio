@@ -169,7 +169,10 @@
         padding-top: 3.5rem;
         text-align: center;
     }
-    .home_zsubtitle{
+    .home__title{
+        font-size: 2.3rem ;
+    }
+    .home_subtitle{
        padding-left: 0;
     }
     .home__subtitle::before{
@@ -180,8 +183,8 @@
         width: 200px;
         height: 200px;
         position: absolute;
-        top: 20%;
-        left: 48%;
+        top: 23%;
+        left: 49%;
         transform: translate(-50%, -50%);
     }
 
@@ -195,7 +198,7 @@
   }
 
   /* For small devices */
-  @media screen and (max-width:350px) {
+  @media screen and (max-width:380px) {
     .home__img{
         width: 180px;
         height: 180px;
@@ -203,5 +206,8 @@
     .home__hand{
         width: 22px;
         height: 22px;
+    }
+    .home__title{
+        font-size: 2.1rem ;
     }
   }
