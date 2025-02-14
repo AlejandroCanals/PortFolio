@@ -70,7 +70,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Experto en Transformación Digital</h3>
+                <h3 className="qualification__title">Curso en Transformación Digital</h3>
                 <span className="qualification__subtitle">
                 FEMPA - Universidad Miguel Hernández
                 </span>
