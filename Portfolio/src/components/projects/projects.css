@@ -2,19 +2,48 @@
     background-color: var(--container-color);
 }
 .projects__container {
-    grid-template-columns: repeat(3, 400px);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     justify-content: center;
-    column-gap: 1.8rem;
-    text-align: center;
+    padding: 2rem;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .projects__content {
-    position: relative;
-    border: 1px solid rgba(0, 0, 0, 0, 1);
+    background-color: white;
+    border-radius: 10px;
     padding: 1rem;
-    margin-top: 1rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.macbook-container {
+    position: relative;
+    width: 100%;
+    max-width: 448px;
+    aspect-ratio: 16 / 10;
+    background: url(/src/assets/Proyectos/Macbook.png) no-repeat center center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.projects__img {
+    position: absolute;
+    top: 7%;
+    left: 12.3%;
+    width: 75.6%;
+    height: 76%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
 
 /* .projects__icon{
     display: block;
@@ -34,10 +63,6 @@
     border-radius: 10px 10px 0px 0px;
 }
 
-.projects__img {
-    border-radius: 0px 0px 10px 10px;
-}
-
 .projects__description {
     color: var(--title-color-blue);
 
@@ -50,7 +75,6 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 1rem;
 }
 
 .projects__btn {
@@ -175,7 +199,10 @@
 
     .projects__content {
         padding: 0rem 5rem;
-        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .projects__content:last-child{
+        margin-bottom: 0px;
     }
 
     .section__title {
@@ -196,9 +223,8 @@
     .projects__container {
         grid-template-columns: repeat(2, 1fr);
     }
-
     .projects__content {
-        padding: 0 2rem;
+        padding: 0 ;
     }
 
     .projects__icon {
@@ -231,5 +257,4 @@
     .projects__modal-projects{
         margin-left: 20px;
     }
-
 }

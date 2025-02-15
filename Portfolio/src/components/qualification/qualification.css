@@ -95,10 +95,6 @@
         margin-right: auto;
     }
   }
-  
-
-
-  
   @media screen and (max-width:800px) {
     .qualification__data{
         width: 600px;
@@ -111,25 +107,20 @@
         margin: 0 var(--mb-0-75);
     }
   }
-  
+
   @media screen and (max-width:600px) {
     .qualification__data{
         width: 400px;
-        margin-left: 0rem;
+        margin-left: 2rem;
     }
-
     .qualification__content{
-        width: 90%; 
-        margin-right: auto; 
+        width: 90%;
+        margin-right: auto;
     }
-
   }
   /* For small devices */
   @media screen and (max-width:350px) {
     .qualification__data{
         grid-area: 0.2rem;
     }
-
-
-  
   }

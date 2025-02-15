@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./projects.css";
 
 // Importar imágenes
@@ -7,6 +7,8 @@ import MultitareaImg from "../../assets/Proyectos/AppMultitarea.png";
 import FestivalImg from "../../assets/Proyectos/Festival.png";
 import BlogCafeImg from "../../assets/Proyectos/BlogCafe.png";
 import BienesRaicesImg from "../../assets/Proyectos/BienesRaices.png";
+import MacbookImg from "../../assets/Proyectos/Macbook.png";
+
 
 // Datos de los proyectos
 const projectsData = [
@@ -23,7 +25,6 @@ const projectsData = [
       "Puedes probarlo usando el usuario 'admin' y la contraseña 'admin'."
     ],
     technologies: ["HTML", "CSS", "Tailwind", "React", "Python y Django"],
-    github: "https://github.com/AlejandroCanals/RepairShop-CRM",
   },
   {
     id: 2,
@@ -38,7 +39,6 @@ const projectsData = [
       "¡Todo en una única aplicación fácil de usar!"
     ],
     technologies: ["HTML", "CSS", "Python", "Flask"],
-    github: "https://github.com/AlejandroCanals/Flask-Multitools",
   },
   {
     id: 3,
@@ -51,7 +51,6 @@ const projectsData = [
       "🔎 Búsqueda optimizada de inmuebles y gestión sencilla."
     ],
     technologies: ["HTML", "SCSS", "JavaScript", "PHP"],
-    github: "https://github.com/AlejandroCanals/RealState-Project",
   },
   {
     id: 4,
@@ -64,7 +63,6 @@ const projectsData = [
       "🎟️ Sistema interactivo de compra de boletos."
     ],
     technologies: ["HTML", "SCSS", "JavaScript", "Gulp"],
-    github: "https://github.com/AlejandroCanals/Festival-Project",
   },
   {
     id: 5,
@@ -77,7 +75,6 @@ const projectsData = [
       "📖 Artículos interesantes sobre tipos de café y técnicas de preparación."
     ],
     technologies: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/AlejandroCanals/CafeBlog-Project",
   },
 ];
 
@@ -95,13 +92,11 @@ function Projects() {
       <div className="projects__container container grid">
         {projectsData.map((project) => (
           <div className="projects__content" key={project.id}>
-            <div>
-              <h3 className="projects__title">{project.title}</h3>
+            <div className="macbook-container" style={{ backgroundImage: `url(${MacbookImg})` }}>
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img className="projects__img" src={project.image} alt={project.title} key={project.id} style={project.id === 1 ? { objectFit: "fill" } : {}} />
+              </a>
             </div>
-
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              <img className="projects__img" src={project.image} alt={project.title} />
-            </a>
 
             {/* Botones de Descripción y Ver Video */}
             <div className="projects__buttons">
@@ -141,12 +136,6 @@ function Projects() {
                         <p className="projects__modal-info">{tech}</p>
                       </li>
                     ))}
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <li className="projects__modal-service">
-                        <i className="uil uil-github" style={{ fontSize: "20px", color: "black" }}></i>
-                        <p className="projects__modal-info">Ver en Github</p>
-                      </li>
-                    </a>
                   </ul>
                 </div>
               </div>
