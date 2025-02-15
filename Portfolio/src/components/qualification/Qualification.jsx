@@ -56,7 +56,7 @@ const Qualification = () => {
                 </div>
               </div>
 
-              <div>
+              <div id="line-1">
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>

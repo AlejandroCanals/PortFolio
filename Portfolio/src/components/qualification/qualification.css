@@ -110,13 +110,19 @@
 
   @media screen and (max-width:600px) {
     .qualification__data{
-        width: 400px;
+        width: 330px;
         margin-left: 2rem;
     }
     .qualification__content{
         width: 90%;
         margin-right: auto;
     }
+    .qualification__title{
+        font-size: 12px;
+    }
+
+
+
   }
   /* For small devices */
   @media screen and (max-width:350px) {
