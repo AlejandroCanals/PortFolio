@@ -27,6 +27,9 @@
     column-gap: 1.5rem;
     margin-bottom: var(--mb-2);
 }
+.footer__list li a{
+    color: var(--container-color);
+}
 
 .footer__social{
     display: flex;
