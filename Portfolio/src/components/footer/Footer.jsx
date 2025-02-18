@@ -1,4 +1,3 @@
-import React from "react";
 import "./footer.css";
 
 const Footer = () => {
@@ -33,6 +32,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/alejandro-canals-poveda-abaa40143/"
             className="footer__social-link"
             target={"_blank"}
+            rel="noopener noreferrer"
           >
             <i className="uil uil-linkedin"></i>
           </a>
@@ -40,6 +40,7 @@ const Footer = () => {
             href="mailto:alejandrocanals.dev@gmail.com"
             className="footer__social-link"
             target={"_blank"}
+            rel="noopener noreferrer"
           >
             <i className="uil uil-envelope-check"></i>
           </a>
@@ -47,6 +48,7 @@ const Footer = () => {
             href="https://github.com/AlejandroCanals"
             className="footer__social-link"
             target={"_blank"}
+            rel="noopener noreferrer"
           >
             <i className="uil uil-github-alt"></i>
           </a>
