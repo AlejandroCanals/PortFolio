@@ -8,12 +8,25 @@ import FestivalImg from "../../assets/Proyectos/Festival.png";
 import BlogCafeImg from "../../assets/Proyectos/BlogCafe.png";
 import BienesRaicesImg from "../../assets/Proyectos/BienesRaices.png";
 import MacbookImg from "../../assets/Proyectos/Macbook.png";
+import FormacionHipnosis from "../../assets/Proyectos/prueba.jpg";
 
 
 // Datos de los proyectos
 const projectsData = [
   {
     id: 1,
+    title: "Formación en Hipnosis",
+    image: FormacionHipnosis,
+    link: "https://www.formacionenhipnosis.com/",
+    description: [
+      "📘 Web desarrollada en Anelis Network para promocionar formación en hipnosis",
+      "🚀 Implementé un diseño estructurado y una navegación intuitiva para mejorar la experiencia del usuario.",
+      "📱 Diseño responsive para una navegación fluida y accesible."
+    ],
+    technologies: ["HTML", "CSS", "Bootstrap","JavaScript","PHP"],
+  },
+  {
+    id: 2,
     title: "Gestor Reparaciones",
     image: GestorImg,
     link: "https://repaircrm.netlify.app/",
@@ -22,12 +35,11 @@ const projectsData = [
       "💡 La idea surge de mi experiencia como técnico en reparaciones electrónicas donde las incidencias se trabajaban con Excel y en mi opinión no cubrían las necesidades del trabajo.",
       "👨‍💻 Permite crear, leer, actualizar y eliminar informes de incidencias, además de asignar técnicos a cada reparación.",
       "🔧 Incluye un seguimiento automatizado de las mismas.",
-      "Puedes probarlo usando el usuario 'admin' y la contraseña 'admin'."
     ],
     technologies: ["HTML", "CSS", "Tailwind", "React", "Python y Django"],
   },
   {
-    id: 2,
+    id: 3,
     title: "App Multitarea",
     image: MultitareaImg,
     link: "https://flask-multitools.onrender.com/",
@@ -41,7 +53,7 @@ const projectsData = [
     technologies: ["HTML", "CSS", "Python", "Flask"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Venta de Inmuebles",
     image: BienesRaicesImg,
     link: "https://real-stateproject.000webhostapp.com/RealState-Project/index.php",
@@ -53,7 +65,7 @@ const projectsData = [
     technologies: ["HTML", "SCSS", "JavaScript", "PHP"],
   },
   {
-    id: 4,
+    id: 5,
     title: "Web Festival",
     image: FestivalImg,
     link: "https://music-festivaal.netlify.app",
@@ -65,7 +77,7 @@ const projectsData = [
     technologies: ["HTML", "SCSS", "JavaScript", "Gulp"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Blog de Café",
     image: BlogCafeImg,
     link: "https://articulosdecafe.netlify.app/",
@@ -76,6 +88,7 @@ const projectsData = [
     ],
     technologies: ["HTML", "CSS", "JavaScript"],
   },
+
 ];
 
 function Projects() {
@@ -94,7 +107,7 @@ function Projects() {
           <div className="projects__content" key={project.id}>
             <div className="macbook-container" style={{ backgroundImage: `url(${MacbookImg})` }}>
               <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <img className="projects__img" src={project.image} alt={project.title} key={project.id} style={project.id === 1 ? { objectFit: "fill" } : {}} />
+                <img className="projects__img" src={project.image} alt={project.title} key={project.id} style={project.id === 2 ? { objectFit: "fill" } : {}} />
               </a>
             </div>
 

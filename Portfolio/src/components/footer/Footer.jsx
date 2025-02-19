@@ -8,22 +8,22 @@ const Footer = () => {
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer_link">
-              About
+              Sobre mí
             </a>
           </li>
           <li>
             <a href="#skills" className="footer_link">
-              Skills
+              Habilidades
             </a>
           </li>
           <li>
            <a href="#projects" className="footer_link">
-              Projects
+              Projectos
             </a>
           </li>
           <li>
             <a href="#qualification" className="footer_link">
-              Education
+              Formación
             </a>
           </li>
         </ul>

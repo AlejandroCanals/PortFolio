@@ -1,5 +1,6 @@
 import "./about.css";
-import AboutImg from "../../assets/about.png";
+import AboutImg from "../../assets/about.svg";
+
 import CV from "../../assets/Alejandro-Canals-Poveda-CV.pdf";
 
 const About = () => {
