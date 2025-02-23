@@ -26,7 +26,13 @@ const Footer = () => {
               Formación
             </a>
           </li>
+          <li>
+            <a href="#electronica" className="footer_link">
+              Electrónica
+            </a>
+          </li>
         </ul>
+
         <div className="footer__social">
           <a
             href="https://www.linkedin.com/in/alejandro-canals-poveda-abaa40143/"
