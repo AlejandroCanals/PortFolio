@@ -61,6 +61,7 @@
     max-width: 550px;
     margin-bottom: var(--mb-3);
     font-size: 0.92rem;
+    color: var(--title-color-dark) !important;
 
 }
 .home__img{

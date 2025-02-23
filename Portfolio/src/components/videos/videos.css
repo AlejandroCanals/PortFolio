@@ -1,0 +1,88 @@
+.video__section {
+  text-align: center;
+  background-color: #fff;
+}
+
+.video__container{
+  padding-top: 25px;
+}
+
+.video__grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.video__card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  width: 340px;
+}
+
+.video__card:hover {
+  transform: scale(1.05);
+}
+
+.thumbnail__container {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+}
+
+.thumbnail {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+.video__duration {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 0.85rem;
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+
+.play__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease-in-out;
+}
+
+.play__button svg {
+  width: 36px;
+  height: 36px;
+  fill: white;
+}
+
+.play__button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width:772px) {
+  .container{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .video__grid{
+    padding-top: 20px;
+  }
+}

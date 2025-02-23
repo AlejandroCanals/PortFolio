@@ -8,7 +8,7 @@ import FestivalImg from "../../assets/Proyectos/Festival.png";
 import BlogCafeImg from "../../assets/Proyectos/BlogCafe.png";
 import BienesRaicesImg from "../../assets/Proyectos/BienesRaices.png";
 import MacbookImg from "../../assets/Proyectos/Macbook.png";
-import FormacionHipnosis from "../../assets/Proyectos/prueba.jpg";
+import FormacionHipnosis from "../../assets/Proyectos/FormacionHipnosis.jpg";
 
 
 // Datos de los proyectos

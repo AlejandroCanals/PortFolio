@@ -70,7 +70,7 @@
 .about__description {
     margin-bottom: var(--mb-1-5);
     line-height: 1.7;
-    color: var(--text-color);
+    color: var(--title-color-dark);
 }
 #cv-button{
     margin-top: 0.9rem;
@@ -92,6 +92,9 @@
 @media screen and (max-width: 576px) {
     .about__info {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .about__img{
+        margin-bottom: 0px;
     }
 
     .about__description {

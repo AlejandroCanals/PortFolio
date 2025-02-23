@@ -10,6 +10,7 @@ import Qualification from "./components/qualification/Qualification";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
+import Videos from "./components/videos/Videos";
 
 function App() {
   useEffect(() => {
@@ -26,7 +27,9 @@ function App() {
         <Skills />
         <Projects />
         <Qualification />
+        <Videos />
         <Contact />
+
       </main>
       <Footer />
       <ScrollUp />
