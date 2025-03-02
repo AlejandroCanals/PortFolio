@@ -27,7 +27,7 @@ const Videos = () => {
     <section className="electronica__section section" id="electronica">
       <h2 className="section__title">{t("electronics.title")}</h2>
       <div className="about__container container grid video__container">
-        <img  alt="Imagen ilustrativa de un programador" className="about__img"  src={Electronica}/>
+        <img  alt="Imagen ilustrativa de un técnico" className="about__img"  src={Electronica}/>
 
         <div className="about__data">
           <p className="about__description">
