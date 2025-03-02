@@ -11,6 +11,8 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Videos from "./components/electronica/Electronica";
+import CookieConsentComponent from "./components/common/CookieConsentComponent";
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
 
   return (
     <>
+      <CookieConsentComponent />
       <Header />
       <main className="main">
         <Home />
