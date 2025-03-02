@@ -148,5 +148,17 @@
     "message": "Mensaje",
     "message_placeholder": "Escribe tu mensaje",
     "send_button": "Enviar mensaje"
+  },
+  "cookies": {
+  "banner_text": "Usamos cookies para mejorar tu experiencia en nuestro sitio web. Puedes aceptar todas, rechazarlas o configurar tus preferencias.",
+  "accept_all": "Aceptar todas",
+  "reject": "Rechazar",
+  "configure": "Configurar Cookies",
+  "settings_title": "Configurar Cookies",
+  "necessary": "Cookies Necesarias (Siempre activadas)",
+  "analytics": "Cookies de Análisis",
+  "marketing": "Cookies de Marketing",
+  "save_preferences": "Guardar Preferencias",
+  "cancel": "Cancelar"
   }
 } 

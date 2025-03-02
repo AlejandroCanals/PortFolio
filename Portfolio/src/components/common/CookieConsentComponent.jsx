@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next"; // 🔹 Importar traducciones
 import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 import { initGA } from "../../utils/analytics.js"; 
 import "./cookieConsent.css";
 
 const CookieConsentComponent = () => {
+  const { t } = useTranslation(); // 🔹 Obtener función de traducción
   const [showSettings, setShowSettings] = useState(false);
   const [preferences, setPreferences] = useState({
     necessary: true, // Siempre activadas
@@ -45,25 +47,25 @@ const CookieConsentComponent = () => {
     <>
       <CookieConsent
         location="bottom"
-        buttonText="Aceptar todas"
-        declineButtonText="Rechazar"
+        buttonText={t("cookies.accept_all")} // 🔹 Usar traducciones
+        declineButtonText={t("cookies.reject")}
         enableDeclineButton
         onAccept={handleAccept}
         onDecline={handleReject}
         buttonStyle={{ backgroundColor: "#28a745", color: "white", padding: "10px 15px", borderRadius: "5px" }}
         declineButtonStyle={{ backgroundColor: "#dc3545", color: "white", padding: "10px 15px", borderRadius: "5px" }}
-        style={{ background: "#2B373B", textAlign: "center" }}
+        style={{ background: "var(--title-color-blue)", textAlign: "center" }}
       >
-        Usamos cookies para mejorar tu experiencia en nuestro sitio web. Puedes aceptar todas, rechazarlas o configurar tus preferencias.
-        <button className="settings-button" onClick={() => setShowSettings(true)}>Configurar Cookies</button>
+        {t("cookies.banner_text")}
+        <button className="settings-button" onClick={() => setShowSettings(true)}>{t("cookies.configure")}</button>
       </CookieConsent>
 
       {showSettings && (
         <div className="cookie-settings">
-          <h3>Configurar Cookies</h3>
+          <h3>{t("cookies.settings_title")}</h3>
           <label>
             <input type="checkbox" checked={preferences.necessary} disabled />
-            Cookies Necesarias (Siempre activadas)
+            {t("cookies.necessary")}
           </label>
           <label>
             <input
@@ -71,7 +73,7 @@ const CookieConsentComponent = () => {
               checked={preferences.analytics}
               onChange={(e) => setPreferences({ ...preferences, analytics: e.target.checked })}
             />
-            Cookies de Análisis
+            {t("cookies.analytics")}
           </label>
           <label>
             <input
@@ -79,10 +81,10 @@ const CookieConsentComponent = () => {
               checked={preferences.marketing}
               onChange={(e) => setPreferences({ ...preferences, marketing: e.target.checked })}
             />
-            Cookies de Marketing
+            {t("cookies.marketing")}
           </label>
-          <button onClick={handleSavePreferences}>Guardar Preferencias</button>
-          <button onClick={() => setShowSettings(false)}>Cancelar</button>
+          <button onClick={handleSavePreferences}>{t("cookies.save_preferences")}</button>
+          <button onClick={() => setShowSettings(false)}>{t("cookies.cancel")}</button>
         </div>
       )}
     </>

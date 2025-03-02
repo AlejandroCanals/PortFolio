@@ -12,7 +12,7 @@
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: #000;
-  --title-color-blue:#007AFF;
+  --title-color-blue: linear-gradient(120deg, #2b4c7e, #1e88e5);
   --text-color: hsl(var(--hue), var(--sat),46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
@@ -184,7 +184,7 @@ img{
 
 .button {
   display: inline-block;
-  background-color: var(--title-color-blue);
+  background: var(--title-color-blue);
   color:var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;

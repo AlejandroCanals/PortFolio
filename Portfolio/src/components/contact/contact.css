@@ -14,6 +14,9 @@
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
 }
+.contact .section__subtitle{
+    margin-bottom: 0;
+}
 .contact__info{
     display: grid;
     row-gap: 1rem;
