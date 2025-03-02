@@ -95,6 +95,8 @@
     }
     .about__img{
         margin-bottom: 0px;
+        width: 330px;
+        height: 330px;
     }
 
     .about__description {
