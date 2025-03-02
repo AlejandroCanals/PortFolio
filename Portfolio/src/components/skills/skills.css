@@ -84,7 +84,7 @@
     color: var(--title-color);
 }
 
-.skills__container__otras {
+.skills__container--otras {
     margin-top: 3rem;
     max-width: 900px;
 }

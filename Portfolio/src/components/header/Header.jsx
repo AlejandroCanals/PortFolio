@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./header.css";
 import "../../i18n";
 import { useTranslation } from "react-i18next";
+import LanguageSelector from "./LanguageSelector";
+
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -51,27 +53,17 @@ const Header = () => {
                 <i className="uil uil-message nav__icon"></i> {t("nav.contact")}
               </a>
             </li>
+            <li className="nav__item">
+              <LanguageSelector />
+            </li>
           </ul>
           <i
             className="uil uil-times nav__close"
             onClick={() => showMenu(!toogle)}
           ></i>
         </div>
-        <div className="nav__language-switcher">
-          <button
-            className={i18n.language === "es" ? "active-lang" : ""}
-            onClick={() => i18n.changeLanguage("es")}
-          >
-            ES
-          </button>
-          <span className="separator">|</span>
-          <button
-            className={i18n.language === "en" ? "active-lang" : ""}
-            onClick={() => i18n.changeLanguage("en")}
-          >
-            EN
-          </button>
-        </div>
+
+
         <div className="nav__toggle" onClick={() => showMenu(!toogle)}>
           <i className="uil uil-apps"></i>
         </div>

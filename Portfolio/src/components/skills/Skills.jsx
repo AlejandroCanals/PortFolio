@@ -17,7 +17,7 @@ const Skills = () => {
         <Backend />
       </div>
 
-      <div className="skills__container__otras container">
+      <div className="skills__container skills__container--otras container ">
         <Tools />
       </div>
     </section>
