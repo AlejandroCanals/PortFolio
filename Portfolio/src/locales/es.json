@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "qualification": "Formación",
+    "electronics": "Electrónica",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Desarrollador FullStack Jr.",
+    "description": "Soy un apasionado autodidacta de la programación, comprometido con el aprendizaje continuo y la resolución creativa de problemas.",
+    "contact_button": "Ponerse en contacto",
+    "scroll_down": "Desplázate hacia abajo"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description1": "Actualmente, trabajo como programador junior full-stack en una empresa, donde trabajo con tecnologías como PHP, JavaScript, SQL, HTML, CSS y Bootstrap, además de plataformas como WordPress y PrestaShop.",
+    "description2": "En mi tiempo libre, sigo ampliando mis conocimientos en React Native y Node.js, desarrollando proyectos personales para mejorar mis habilidades y explorar nuevas tecnologías.",
+    "cv_button": "Descargar CV"
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "other_tools": "Otras Herramientas"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description_button": "Descripción",
+    "video_button": "Ver video",
+    "technologies": "Tecnologías Usadas",
+    "list": [
+      {
+        "title": "Formación en Hipnosis",
+        "description": [
+          "📘 Web desarrollada en Anelis Network para promocionar formación en hipnosis.",
+          "🚀 Implementé un diseño estructurado y una navegación intuitiva para mejorar la experiencia del usuario.",
+          "📱 Diseño responsive para una navegación fluida y accesible."
+        ],
+        "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP"]
+      },
+      {
+        "title": "Gestor Reparaciones",
+        "description": [
+          "💡 La idea surge de mi experiencia como técnico en reparaciones electrónicas donde las incidencias se trabajaban con Excel y en mi opinión no cubrían las necesidades del trabajo.",
+          "👨‍💻 Permite crear, leer, actualizar y eliminar informes de incidencias, además de asignar técnicos a cada reparación.",
+          "🔧 Incluye un seguimiento automatizado de las mismas."
+        ],
+        "technologies": ["HTML", "CSS", "Tailwind", "React", "Python y Django"]
+      },
+      {
+        "title": "App Multitarea",
+        "description": [
+          "📥 Esta aplicación permite descargar videos y audios de YouTube.",
+          "🎨 Elimina fondos de imágenes con un solo clic.",
+          "📄 Fusiona múltiples PDFs en un solo archivo.",
+          "¡Todo en una única aplicación fácil de usar!"
+        ],
+        "technologies": ["HTML", "CSS", "Python", "Flask"]
+      },
+      {
+        "title": "Venta de Inmuebles",
+        "description": [
+          "🏡 Plataforma web para la venta y promoción de propiedades inmobiliarias.",
+          "📖 Incluye un blog informativo sobre el sector inmobiliario.",
+          "🔎 Búsqueda optimizada de inmuebles y gestión sencilla."
+        ],
+        "technologies": ["HTML", "SCSS", "JavaScript", "PHP"]
+      },
+      {
+        "title": "Web Festival",
+        "description": [
+          "🎵 Página web de un festival con venta de entradas y diseño responsive.",
+          "🎨 Implementa Sass (SCSS) para una mejor gestión del estilo.",
+          "🎟️ Sistema interactivo de compra de boletos."
+        ],
+        "technologies": ["HTML", "SCSS", "JavaScript", "Gulp"]
+      },
+      {
+        "title": "Blog de Café",
+        "description": [
+          "☕ Blog sobre café desarrollado para mejorar habilidades en HTML, CSS y JavaScript.",
+          "📱 Diseño responsive para una excelente experiencia en móviles.",
+          "📖 Artículos interesantes sobre tipos de café y técnicas de preparación."
+        ],
+        "technologies": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  "qualification": {
+    "title": "Educación - Experiencia",
+    "education": "Educación",
+    "experience": "Experiencia",
+    "list": {
+      "education": [
+        {
+          "title": "Técnico Superior en Sistemas de Telecomunicaciones e Informáticos",
+          "institution": "IES La Torreta - Elche",
+          "year": "2017 – 2019"
+        },
+        {
+          "title": "Curso en Transformación Digital",
+          "institution": "FEMPA - Universidad Miguel Hernández",
+          "year": "2023"
+        },
+        {
+          "title": "Cursos, Certificaciones y Proyectos Personales de Programación",
+          "institution": "Coursera - Udemy - FreeCodeCamp - Youtube",
+          "year": "2023 - Presente"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Técnico de Reparación de Equipos Informáticos y Microelectrónica",
+          "institution": "Mobilon - Elche",
+          "year": "2019 - 2023"
+        },
+        {
+          "title": "Proyectos, Cursos y Certificaciones de Programación",
+          "institution": "Autodidacta",
+          "year": "2023 - Presente"
+        },
+        {
+          "title": "Programador Junior Full Stack",
+          "institution": "Anelis Network - Alicante",
+          "year": "2024/09 - Presente"
+        }
+      ]
+    }
+  },
+  "electronics": {
+    "title": "Reparaciones Electrónicas",
+    "description1": "Además de la programación, siempre me ha apasionado el hardware y la electrónica",
+    "description2": "Durante mi etapa como Técnico, trabajé reparando dispositivos como teléfonos móviles, tablets y ordenadores, adquiriendo experiencia en diagnóstico de fallos, soldadura de componentes y sustitución de piezas.",
+    "description3": "En ese tiempo, también realicé diversos proyectos personales de modificación y reparación de dispositivos, como teclados mecánicos, consolas y gadgets.",
+    "description4": "Aquí os dejo algunos de los videos de esos proyectos:"
+  },
+  "contact": {
+    "title": "Ponerse en contacto",
+    "phone": "Teléfono",
+    "write_me": "Escríbeme",
+    "name": "Nombre",
+    "name_placeholder": "Introduce tu nombre",
+    "email": "E-mail",
+    "email_placeholder": "Introduce tu e-mail",
+    "message": "Mensaje",
+    "message_placeholder": "Escribe tu mensaje",
+    "send_button": "Enviar mensaje"
+  }
+} 

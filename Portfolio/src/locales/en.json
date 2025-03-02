@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "projects": "Projects",
+    "qualification": "Qualification",
+    "electronics": "Electronics",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "FullStack Jr. Developer",
+    "description": "I am a passionate self-taught programmer, committed to continuous learning and creative problem-solving.",
+    "contact_button": "Get in Touch",
+    "scroll_down": "Scroll Down"
+  },
+  "about": {
+    "title": "About Me",
+    "description1": "I currently work as a junior full-stack developer at a company, where I use technologies such as PHP, JavaScript, SQL, HTML, CSS, and Bootstrap, as well as platforms like WordPress and PrestaShop.",
+    "description2": "In my free time, I continue expanding my knowledge in React Native and Node.js, developing personal projects to improve my skills and explore new technologies.",
+    "cv_button": "Download CV"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "other_tools": "Other Tools"
+  },
+  "projects": {
+    "title": "Projects",
+    "description_button": "Description",
+    "video_button": "Watch video",
+    "technologies": "Technologies Used",
+    "list": [
+      {
+        "title": "Hypnosis Training",
+        "description": [
+          "📘 Website developed at Anelis Network to promote hypnosis training.",
+          "🚀 Implemented structured design and intuitive navigation.",
+          "📱 Responsive design for seamless browsing."
+        ],
+        "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP"]
+      },
+      {
+        "title": "Repair Manager",
+        "description": [
+          "💡 The idea came from my experience as an electronic repair technician where incidents were managed with Excel, which in my opinion did not meet work needs.",
+          "👨‍💻 Allows you to create, read, update, and delete incident reports, as well as assign technicians to each repair.",
+          "🔧 Includes an automated tracking system."
+        ],
+        "technologies": ["HTML", "CSS", "Tailwind", "React", "Python and Django"]
+      },
+      {
+        "title": "Multitask App",
+        "description": [
+          "📥 This application allows downloading videos and audios from YouTube.",
+          "🎨 Removes image backgrounds with a single click.",
+          "📄 Merges multiple PDFs into a single file.",
+          "All in one easy-to-use application!"
+        ],
+        "technologies": ["HTML", "CSS", "Python", "Flask"]
+      },
+      {
+        "title": "Real Estate Sales",
+        "description": [
+          "🏡 Web platform for selling and promoting real estate properties.",
+          "📖 Includes an informative blog about the real estate sector.",
+          "🔎 Optimized property search and easy management."
+        ],
+        "technologies": ["HTML", "SCSS", "JavaScript", "PHP"]
+      },
+      {
+        "title": "Festival Website",
+        "description": [
+          "🎵 Festival website with ticket sales and responsive design.",
+          "🎨 Implements Sass (SCSS) for better style management.",
+          "🎟️ Interactive ticket purchase system."
+        ],
+        "technologies": ["HTML", "SCSS", "JavaScript", "Gulp"]
+      },
+      {
+        "title": "Coffee Blog",
+        "description": [
+          "☕ Coffee blog developed to improve skills in HTML, CSS, and JavaScript.",
+          "📱 Responsive design for a great mobile experience.",
+          "📖 Interesting articles on types of coffee and brewing techniques."
+        ],
+        "technologies": ["HTML", "CSS", "JavaScript"]
+      }
+    ]
+  },
+  "qualification": {
+    "title": "Education - Experience",
+    "education": "Education",
+    "experience": "Experience",
+    "list": {
+      "education": [
+        {
+          "title": "Higher Technician in Telecommunications and IT Systems",
+          "institution": "IES La Torreta - Elche",
+          "year": "2017 – 2019"
+        },
+        {
+          "title": "Digital Transformation Course",
+          "institution": "FEMPA - Universidad Miguel Hernández",
+          "year": "2023"
+        },
+        {
+          "title": "Courses, Certifications, and Personal Programming Projects",
+          "institution": "Coursera - Udemy - FreeCodeCamp - Youtube",
+          "year": "2023 - Present"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Computer and Microelectronics Repair Technician",
+          "institution": "Mobilon - Elche",
+          "year": "2019 - 2023"
+        },
+        {
+          "title": "Programming Projects, Courses, and Certifications",
+          "institution": "Self-taught",
+          "year": "2023 - Present"
+        },
+        {
+          "title": "Junior Full Stack Developer",
+          "institution": "Anelis Network - Alicante",
+          "year": "2024/09 - Present"
+        }
+      ]
+    }
+  },
+  "electronics": {
+    "title": "Electronics Repairs",
+    "description1": "Besides programming, I have always been passionate about hardware and electronics.",
+    "description2": "During my time as a Technician, I worked repairing devices such as mobile phones, tablets, and computers, gaining experience in fault diagnosis, component soldering, and parts replacement.",
+    "description3": "During that time, I also carried out various personal projects involving modification and repair of devices, such as mechanical keyboards, consoles, and gadgets.",
+    "description4": "Here are some videos of those projects:"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "phone": "Phone",
+    "write_me": "Write Me",
+    "name": "Name",
+    "name_placeholder": "Enter your name",
+    "email": "E-mail",
+    "email_placeholder": "Enter your e-mail",
+    "message": "Message",
+    "message_placeholder": "Write your message",
+    "send_button": "Send Message"
+  }
+}
