@@ -10,7 +10,7 @@ const About = () => {
   
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">Sobre mí</h2>
+      <h2 className="section__title">{t("about.title")}</h2>
       <div className="about__container container grid">
         <img src={AboutImg} alt="Imagen ilustrativa de un programador" className="about__img"fetchpriority="high" loading="eager" />
 
