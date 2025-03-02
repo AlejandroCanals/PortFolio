@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "qualification": "Qualification",
+    "electronics": "Electronics",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Alejandro Canals",
+    "subtitle": "Junior FullStack Developer",
+    "description": "I am a passionate self-taught programmer, committed to continuous learning and creative problem solving.",
+    "contact_button": "Get in touch",
+    "scroll_down": "Scroll Down"
+  },
+  "about": {
+    "title": "About Me",
+    "description1": "Currently, I work as a junior full-stack developer in a company, where I work with technologies such as PHP, JavaScript, SQL, HTML, CSS and Bootstrap, as well as platforms like WordPress and PrestaShop.",
+    "description2": "In my free time, I continue expanding my knowledge in React Native and Node.js, developing personal projects to improve my skills and explore new technologies.",
+    "cv_button": "Download CV"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "other_tools": "Other Tools"
+  },
+  "projects": {
+    "title": "Projects",
+    "description_button": "Description",
+    "video_button": "Watch video",
+    "technologies": "Technologies Used"
+  },
+  "qualification": {
+    "title": "Education - Experience",
+    "education": "Education",
+    "experience": "Experience"
+  },
+  "electronics": {
+    "title": "Electronic Repairs",
+    "description1": "Besides programming, I've always been passionate about hardware and electronics",
+    "description2": "During my time as a Technician, I worked repairing devices such as mobile phones, tablets and computers, gaining experience in fault diagnosis, component soldering and parts replacement.",
+    "description3": "During that time, I also carried out various personal projects modifying and repairing devices, such as mechanical keyboards, consoles and gadgets.",
+    "description4": "Here are some videos of those projects:"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "phone": "Phone",
+    "write_me": "Write me",
+    "name": "Name",
+    "name_placeholder": "Enter your name",
+    "email": "Email",
+    "email_placeholder": "Enter your email",
+    "message": "Message",
+    "message_placeholder": "Write your message",
+    "send_button": "Send message"
+  }
+} 
