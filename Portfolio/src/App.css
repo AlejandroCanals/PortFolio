@@ -76,12 +76,6 @@
 
 /*BASE*/
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-  font-display: swap;
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -126,7 +120,7 @@ button{
 .button--zoom{
     transition: transform 0.3s, box-shadow 0.3s;
 }
-.button--zoom:hover {
+.button-zoom:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
