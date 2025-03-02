@@ -1,8 +1,13 @@
 import "./about.css";
 import AboutImg from "../../assets/about.svg";
 import CV from "../../assets/Alejandro-Canals-Poveda-CV.pdf";
+import { useTranslation } from "react-i18next";
+
 
 const About = () => {
+
+  const { t } = useTranslation();
+  
   return (
     <section className="about section" id="about">
       <h2 className="section__title">Sobre mí</h2>
@@ -11,14 +16,14 @@ const About = () => {
 
         <div className="about__data">
           <p className="about__description">
-          Actualmente, trabajo como programador junior full-stack en una empresa, donde trabajo con tecnologías como PHP, JavaScript, SQL, HTML, CSS y Bootstrap, además de plataformas como WordPress y PrestaShop.
+            {t("about.description1")}
           </p>
           <p className="about__description">
-          En mi tiempo libre, sigo ampliando mis conocimientos en React Native y Node.js, desarrollando proyectos personales para mejorar mis habilidades y explorar nuevas tecnologías.
+            {t("about.description2")}   
           </p>
 
           <a download href={CV} className="button button--flex" id="cv-button">
-            Descargar CV
+            {t("about.cv_button")}
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"

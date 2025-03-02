@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import TagManager from "react-gtm-module"; // Importa Google Tag Manager
+import TagManager from "react-gtm-module";
 import "./App.css";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
@@ -11,6 +11,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Videos from "./components/electronica/Electronica";
+
 
 function App() {
   useEffect(() => {

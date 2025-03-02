@@ -7,11 +7,14 @@ import xampp from '../../assets/svg/xampp.svg'
 import git from '../../assets/svg/git.svg'
 import figma from '../../assets/svg/figma.svg'
 import axios from '../../assets/svg/axios.svg'
+import { useTranslation } from "react-i18next";
+
 
 const Tools = () => {
+  const { t } = useTranslation();
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Otras Herramientas</h3>
+      <h3 className="skills__title">{t("skills.other_tools")}</h3>
       <div className="skills__box">
         <div className="skills__data">
           <img src={wordpress} alt="wordpress svg" className="skills__icons"></img>

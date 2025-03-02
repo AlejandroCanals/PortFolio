@@ -1,9 +1,13 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css";
+import { useTranslation } from "react-i18next";
+
 
 const Contact = () => {
-    const form = useRef();
+
+  const { t } = useTranslation();
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,7 +21,7 @@ const Contact = () => {
   };
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Ponerse en contacto</h2>
+      <h2 className="section__title">{t("contact.title")}</h2>
       <span className="section__subtitle"></span>
 
       <div className="contact__container container grid">
@@ -42,10 +46,10 @@ const Contact = () => {
             */}
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
-              <h3 className="contact__card-title">Teléfono</h3>
-              <span className="contact__card-data">604 418 921</span>
+              <h3 className="contact__card-title">{t("contact.phone")}</h3>
+              <span className="contact__card-data"></span>
               <a href="https://wa.me/604418921" className="contact__button">
-              Escríbeme{" "}
+              {t("contact.write_me")}{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -57,7 +61,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/alejandro-canals-poveda/"
                 className="contact__button"
               >
-                Escríbeme{" "}
+                {t("contact.write_me")}{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>

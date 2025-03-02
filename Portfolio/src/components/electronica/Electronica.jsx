@@ -1,5 +1,6 @@
 import "./electronica.css";
 import Electronica from "../../assets/Proyectos/Electronica.svg";
+import { useTranslation } from "react-i18next";
 
 const videos = [
   {
@@ -20,24 +21,25 @@ const videos = [
 ];
 
 const Videos = () => {
+  const { t } = useTranslation();
   return (
 
     <section className="electronica__section section" id="electronica">
-      <h2 className="section__title">Reparaciones Electrónicas</h2>
+      <h2 className="section__title">{t("electronics.title")}</h2>
       <div className="about__container container grid video__container">
         <img  alt="Imagen ilustrativa de un programador" className="about__img"  src={Electronica}/>
 
         <div className="about__data">
           <p className="about__description">
-          Además de la programación, siempre me ha apasionado el hardware y la electrónica          </p>
+          {t("electronics.description1")}</p>
           <p className="about__description">
-          Durante mi etapa como Técnico, trabajé reparando dispositivos como teléfonos móviles, tablets y ordenadores, adquiriendo experiencia en diagnóstico de fallos, soldadura de componentes y sustitución de piezas.
+          {t("electronics.description2")}
           </p>
           <p className="about__description">
-          En ese tiempo, también realicé diversos proyectos personales de modificación y reparación de dispositivos, como teclados mecánicos, consolas y gadgets.
+          {t("electronics.description3")}
           </p>
           <p className="about__description">
-          Aquí os dejo algunos de los videos de esos proyectos:
+          {t("electronics.description4")}
           </p>
         </div>
       </div>
