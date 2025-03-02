@@ -41,7 +41,7 @@ function Projects() {
 
             {/* Botones de Descripción y Ver Video */}
             <div className="projects__buttons">
-              <button className="projects__btn" onClick={() => toggleModal(project.id)}>
+              <button className="projects__btn button--zoom" onClick={() => toggleModal(project.id)}>
                 {t("projects.description_button")} <i className="uil uil-info-circle"></i>
               </button>
             </div>

@@ -160,5 +160,70 @@
   "marketing": "Cookies de Marketing",
   "save_preferences": "Guardar Preferencias",
   "cancel": "Cancelar"
+  },
+  "privacy_policy": {
+    "title": "Política de Privacidad",
+    "last_updated": "Última actualización: [Fecha]",
+    "section1": {
+      "title": "1. Información Recopilada",
+      "content": "Este sitio web solo recopila datos de navegación mediante Google Analytics, sin almacenar información personal identificable."
+    },
+    "section2": {
+      "title": "2. Uso de la Información",
+      "content": "Los datos recopilados se utilizan exclusivamente para analizar el tráfico del sitio y mejorar la experiencia del usuario."
+    },
+    "section3": {
+      "title": "3. Cookies",
+      "content": "Utilizamos cookies de análisis para medir el tráfico del sitio. Puedes gestionar tus preferencias de cookies en cualquier momento."
+    },
+    "section4": {
+      "title": "4. Contacto",
+      "content": "Si tienes preguntas sobre esta política de privacidad, puedes contactarnos en: [Tu email o formulario de contacto]."
+    }
+  },  "privacy_policy": {
+    "title": "Política de Privacidad",
+    "last_updated": "Última actualización: [Fecha]",
+    "section1": {
+      "title": "1. Información Recopilada",
+      "content": "Este sitio web solo recopila datos de navegación mediante Google Analytics, sin almacenar información personal identificable."
+    },
+    "section2": {
+      "title": "2. Uso de la Información",
+      "content": "Los datos recopilados se utilizan exclusivamente para analizar el tráfico del sitio y mejorar la experiencia del usuario."
+    },
+    "section3": {
+      "title": "3. Cookies",
+      "content": "Utilizamos cookies de análisis para medir el tráfico del sitio. Puedes gestionar tus preferencias de cookies en cualquier momento."
+    },
+    "section4": {
+      "title": "4. Contacto",
+      "content": "Si tienes preguntas sobre esta política de privacidad, puedes contactarnos en: alejandrocanals.dev@gmail.com"
+    }
+  },
+  "cookie_policy": {
+    "title": "Política de Cookies",
+    "section1": {
+      "title": "1. ¿Qué son las cookies?",
+      "content": "Las cookies son pequeños archivos que se almacenan en tu dispositivo para mejorar tu experiencia de navegación."
+    },
+    "section2": {
+      "title": "2. ¿Qué cookies utilizamos?",
+      "cookies": {
+        "necessary": "Cookies Necesarias: Son esenciales para el funcionamiento del sitio y no pueden desactivarse.",
+        "analytics": "Cookies de Análisis: Usamos Google Analytics para medir visitas y mejorar el contenido."
+      }
+    },
+    "section3": {
+      "title": "3. ¿Cómo gestionar cookies?",
+      "content": "Puedes configurar o rechazar las cookies desde el banner de cookies en nuestro sitio o en la configuración de tu navegador."
+    },
+    "section4": {
+      "title": "4. Contacto",
+      "content": "Para más información sobre nuestra política de cookies, puedes contactarme en: alejandrocanals.dev@gmail.com"
+    }
+  },
+  "footer": {
+  "privacy_policy": "Política de Privacidad",
+  "cookie_policy": "Política de Cookies"
   }
 } 

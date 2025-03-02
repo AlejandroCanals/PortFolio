@@ -52,6 +52,23 @@
     text-align: center;
     font-size: var(--smaller-font-size);
 }
+.footer__legal{
+    background-color: none;
+    text-align: center;
+    font-size: 12px;
+}
+.footer__legal-link{
+   color: white;
+   cursor: pointer;
+}
+
+
+/* 🔹 Efecto hover: cambia a azul claro */
+
+.footer a:hover {
+    color: #9ecbff; /* Azul claro al pasar el ratón */
+    text-decoration: underline; /* Subrayado al hacer hover */
+}
 
 /* BREAKPOINTS */
 

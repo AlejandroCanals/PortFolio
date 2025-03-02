@@ -62,7 +62,7 @@ const Data = () => {
       <p className="home__description">
         { t("home.description")}
       </p>
-      <a href="#contact" className="button button--flex">
+      <a href="#contact" className="button button--flex button--zoom">
         {t("home.contact_button")}
         <svg
           className="button__icon"

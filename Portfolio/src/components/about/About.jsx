@@ -22,7 +22,7 @@ const About = () => {
             {t("about.description2")}   
           </p>
 
-          <a download href={CV} className="button button--flex" id="cv-button">
+          <a download href={CV} className="button button--flex button--zoom" id="cv-button">
             {t("about.cv_button")}
             <svg
               className="button__icon"

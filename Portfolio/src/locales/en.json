@@ -158,6 +158,52 @@
   "marketing": "Marketing Cookies",
   "save_preferences": "Save Preferences",
   "cancel": "Cancel"
+  },
+  "privacy_policy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last updated: [Date]",
+    "section1": {
+      "title": "1. Information We Collect",
+      "content": "This website only collects browsing data via Google Analytics without storing personally identifiable information."
+    },
+    "section2": {
+      "title": "2. How We Use Information",
+      "content": "Collected data is used exclusively to analyze site traffic and improve user experience."
+    },
+    "section3": {
+      "title": "3. Cookies",
+      "content": "We use analytics cookies to measure website traffic. You can manage your cookie preferences at any time."
+    },
+    "section4": {
+      "title": "4. Contact",
+      "content": "For questions regarding this privacy policy, please contact us at alejandrocanals.dev@gmail.com."
+    }
+  },
+  "cookie_policy": {
+    "title": "Cookie Policy",
+    "section1": {
+      "title": "1. What are cookies?",
+      "content": "Cookies are small files stored on your device to enhance your browsing experience."
+    },
+    "section2": {
+      "title": "2. What cookies do we use?",
+      "cookies": {
+        "necessary": "Necessary Cookies: Essential for website functionality.",
+        "analytics": "Analytics Cookies: We use Google Analytics to measure visits."
+      }
+    },
+    "section3": {
+      "title": "3. How to manage cookies?",
+      "content": "You can manage or reject cookies from our cookie banner or through your browser settings."
+    },
+    "section4": {
+      "title": "4. Contact",
+      "content": "For more information about our cookie policy, contact us at alejandrocanals.dev@gmail.com"
+    }
+  },
+  "footer": {
+    "privacy_policy": "Privacy Policy",
+    "cookie_policy": "Cookie Policy"
   }
 
 }
