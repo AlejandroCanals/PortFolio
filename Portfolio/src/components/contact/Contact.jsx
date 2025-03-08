@@ -45,10 +45,10 @@ const Contact = () => {
             </div>
             */}
             <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
-              <h3 className="contact__card-title">{t("contact.phone")}</h3>
+              <i className="uil uil-envelope-check" style={{fontSize:"25px"}}></i>
+              <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data"></span>
-              <a href="https://wa.me/604418921" className="contact__button">
+              <a href="mailto:alejandrocanals.dev@gmail.com" className="contact__button">
               {t("contact.write_me")}{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>

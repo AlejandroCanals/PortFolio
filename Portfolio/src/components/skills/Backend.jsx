@@ -2,7 +2,7 @@ import python from "../../assets/svg/python.svg";
 import php from "../../assets/svg/php.svg";
 import django from "../../assets/svg/django.svg";
 import sql from "../../assets/svg/sql.svg";
-
+import phpmyadmin from "../../assets/svg/phpmyadmin.svg";
 const Backend = () => {
   return (
     <div className="skills__content">
@@ -20,6 +20,12 @@ const Backend = () => {
             <img src={sql} alt="sql svg" className="skills__icons"></img>
             <div>
               <h3 className="skills__name">SQL</h3>
+            </div>
+          </div>
+          <div className="skills__data">
+            <img src={phpmyadmin} alt="sql svg" className="skills__icons"></img>
+            <div>
+              <h3 className="skills__name">phpMyadmin</h3>
             </div>
           </div>
         </div>
