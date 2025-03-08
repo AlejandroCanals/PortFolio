@@ -17,7 +17,7 @@ const About = () => {
             alt="Programmer picture" 
             width="480" 
             height="480" 
-            crossorigin="anonymous" 
+            crossOrigin="anonymous" 
             loading="lazy"
           />
         <div className="about__data">

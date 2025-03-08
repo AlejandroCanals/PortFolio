@@ -12,7 +12,7 @@ import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Videos from "./components/electronica/Electronica";
 import CookieConsentComponent from "./components/common/CookieConsentComponent";
-
+import { useTranslation } from "react-i18next";
 
 
 function App() {
@@ -20,6 +20,22 @@ function App() {
     // Inicializa Google Tag Manager con tu ID de GTM
     TagManager.initialize({ gtmId: "GTM-NX37MGGP" }); 
   }, []);
+
+  const { t, i18n } = useTranslation();
+  //Traducciones para metatile y metadescription
+  useEffect(() => {
+    document.title = t("meta.title");
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute("content", t("meta.description"));
+
+    document
+      .querySelector('meta[property="og:title"]')
+      ?.setAttribute("content", t("meta.title"));
+    document
+      .querySelector('meta[property="og:description"]')
+      ?.setAttribute("content", t("meta.description"));
+  }, [t, i18n.language]); 
 
   return (
     <>
@@ -33,7 +49,6 @@ function App() {
         <Qualification />
         <Videos />
         <Contact />
-
       </main>
       <Footer />
       <ScrollUp />

@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "Alejandro Canals | Desarrollador Full Stack",
+    "description": "Soy Alejandro Canals, desarrollador Full Stack. Apasionado por la tecnología y la creación de soluciones web modernas y eficientes."
+  },
   "nav": {
     "home": "Inicio",
     "about": "Sobre mí",
