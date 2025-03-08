@@ -12,8 +12,14 @@ const About = () => {
     <section className="about section" id="about">
       <h2 className="section__title">{t("about.title")}</h2>
       <div className="about__container container grid">
-        <img src={AboutImg} alt="Imagen ilustrativa de un programador" className="about__img" fetchpriority="auto" loading="lazy" />
-
+        <img 
+            src={AboutImg} 
+            alt="Programmer picture" 
+            width="480" 
+            height="480" 
+            crossorigin="anonymous" 
+            loading="lazy"
+          />
         <div className="about__data">
           <p className="about__description">
             {t("about.description1")}

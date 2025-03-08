@@ -36,8 +36,8 @@ const Footer = () => {
 
         {/* 🔹 Enlaces que abren los modales */}
         <div className="footer__legal">
-          <a className="footer__legal-link" onClick={() => setShowPrivacyModal(true)}>{t("footer.privacy_policy")}</a> | 
-          <a className="footer__legal-link" onClick={() => setShowCookieModal(true)}>{t("footer.cookie_policy")}</a>
+          <a className="footer__legal-link" rel="nofollow" onClick={() => setShowPrivacyModal(true)}>{t("footer.privacy_policy")}</a> | 
+          <a className="footer__legal-link" rel="nofollow" onClick={() => setShowCookieModal(true)}>{t("footer.cookie_policy")}</a>
         </div>
       </div>
 
