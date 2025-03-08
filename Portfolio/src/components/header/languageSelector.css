@@ -53,6 +53,8 @@
     }
     .dropdown-button {
         padding: 10px 7px;
+        margin-left: 0;
+        margin-right: 0;
     }
   }
   

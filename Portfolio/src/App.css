@@ -118,11 +118,11 @@ button{
   outline: none;
 }
 .button--zoom{
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s !important;
 }
-.button-zoom:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+.button--zoom:hover {
+    transform: scale(1.05) !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
 }
 
 img{
