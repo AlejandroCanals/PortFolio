@@ -19,13 +19,23 @@ function Projects() {
     setActiveProject(activeProject === id ? null : id);
   };
 
+  const links = [
+    "https://formacionenhipnosis.com",
+    "https://repaircrm.netlify.app/",
+    "https://appmultitarea.com",
+    "https://bienesraices.com",
+    "music-festivaal.netlify.app",
+    "https://articulosdecafe.netlify.app/",
+  ];
+
   // Datos de los proyectos usando traducciones dinámicas
   const projectsData = t("projects.list", { returnObjects: true }).map((proj, index) => ({
     id: index + 1,
     title: proj.title,
     image: [FormacionHipnosis, GestorImg, MultitareaImg, BienesRaicesImg, FestivalImg, BlogCafeImg][index], // Asigna imágenes en el mismo orden
     description: proj.description,
-    technologies: proj.technologies
+    technologies: proj.technologies,
+    link: links[index],
   }));
 
   return (
@@ -36,7 +46,13 @@ function Projects() {
         {projectsData.map((project) => (
           <div className="projects__content" key={project.id}>
             <div className="macbook-container" style={{ backgroundImage: `url(${MacbookImg})` }}>
-              <img className="projects__img" src={project.image} alt={project.title} />
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="macbook-container"
+                style={{ backgroundImage: `url(${MacbookImg})` }}
+              ><img className="projects__img" src={project.image} alt={project.title} /></a>
             </div>
 
             {/* Botones de Descripción y Ver Video */}
