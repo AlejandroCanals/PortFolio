@@ -1,43 +1,68 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./projects.css";
 import { useTranslation } from "react-i18next";
 
 // Importar imágenes
 import GestorImg from "../../assets/Proyectos/GestorReparaciones.png";
-import MultitareaImg from "../../assets/Proyectos/AppMultitarea.png";
+import MultitareaImg from "../../assets/Proyectos/MultitaskApp.png";
 import FestivalImg from "../../assets/Proyectos/Festival.png";
 import BlogCafeImg from "../../assets/Proyectos/BlogCafe.png";
 import BienesRaicesImg from "../../assets/Proyectos/BienesRaices.png";
 import MacbookImg from "../../assets/Proyectos/Macbook.png";
 import FormacionHipnosis from "../../assets/Proyectos/FormacionHipnosis.jpg";
+import AlbionApp from "../../assets/Proyectos/AlbionApp.png";
 
 function Projects() {
   const { t } = useTranslation(); // 🔹 Hook para traducción
   const [activeProject, setActiveProject] = useState(null);
 
   const toggleModal = (id) => {
-    setActiveProject(activeProject === id ? null : id);
+    setActiveProject(prev => (prev === id ? null : id));
   };
 
+
+  const closeModal = () => setActiveProject(null);
+
+  useEffect(() =>{
+    if (activeProject !== null){
+      document.body.style.overflow = "hidden";
+    }else{
+      document.body.style.overflow = "";
+    }
+  }, [activeProject]);
+
   const links = [
+    "https://albiontopbuilds.com/",
     "https://formacionenhipnosis.com",
-    "https://repaircrm.netlify.app/",
-    "https://appmultitarea.com",
+    "https://www.linkedin.com/feed/update/urn:li:activity:7150441143128731649/",
+    "https://www.linkedin.com/feed/update/urn:li:activity:7122857379330715648/",
     "https://bienesraices.com",
-    "music-festivaal.netlify.app",
+    "https://music-festivaal.netlify.app",
     "https://articulosdecafe.netlify.app/",
   ];
 
-  // Datos de los proyectos usando traducciones dinámicas
-  const projectsData = t("projects.list", { returnObjects: true }).map((proj, index) => ({
-    id: index + 1,
-    title: proj.title,
-    image: [FormacionHipnosis, GestorImg, MultitareaImg, BienesRaicesImg, FestivalImg, BlogCafeImg][index], // Asigna imágenes en el mismo orden
-    description: proj.description,
-    technologies: proj.technologies,
-    link: links[index],
-  }));
+  const images = [
+    AlbionApp,
+    FormacionHipnosis,
+    GestorImg,
+    MultitareaImg,
+    BienesRaicesImg,
+    FestivalImg,
+    //BlogCafeImg,
+  ]
 
+  // Datos de los proyectos usando traducciones dinámicas
+  const rawList = t("projects.list", { returnObjects: true }) || [];
+  const list = Array.isArray(rawList) ? rawList : [];
+
+  const projectsData = list.map((proj, index) => ({
+    id: index + 1,
+    title: proj.title ?? `Proyecto ${index + 1}`,
+    image: images[index] ?? images[0],
+    description: Array.isArray(proj.description) ? proj.description : [proj.description ?? ""],
+    technologies: Array.isArray(proj.technologies) ? proj.technologies : [], // <-- ARREGLO
+    link: links[index] ?? "#",
+  }));
   return (
     <section className="projects section" id="projects">
       <h2 className="section__title">{t("projects.title")}</h2>
@@ -45,16 +70,13 @@ function Projects() {
       <div className="projects__container container grid">
         {projectsData.map((project) => (
           <div className="projects__content" key={project.id}>
-            <div className="macbook-container" style={{ backgroundImage: `url(${MacbookImg})` }}>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="macbook-container"
-                style={{ backgroundImage: `url(${MacbookImg})` }}
-              ><img className="projects__img" src={project.image} alt={project.title} /></a>
-            </div>
-
+            <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="macbook-container"
+            style={{ backgroundImage: `url(${MacbookImg})` }}
+          ><img className="projects__img" src={project.image} alt={project.title} /></a>
             {/* Botones de Descripción y Ver Video */}
             <div className="projects__buttons">
               <button className="projects__btn button--zoom" onClick={() => toggleModal(project.id)}>
@@ -64,10 +86,19 @@ function Projects() {
 
             {/* Modal de descripción */}
             {activeProject === project.id && (
-              <div className="projects__modal active-modal">
-                <div className="projects__modal-content">
-                  <i onClick={() => toggleModal(null)} className="uil uil-times projects__modal-close"></i>
-                  <h3 className="projects__modal-title">{project.title}</h3>
+              <div
+                className="projects__modal active-modal"
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby={`modal-title-${project.id}`}
+                onClick={closeModal}
+              >
+                <div
+                  className="projects__modal-content"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <i onClick={closeModal} className="uil uil-times projects__modal-close"></i>
+                  <h3 id={`modal-title-${project.id}`} className="projects__modal-title">{project.title}</h3>
 
                   <div className="projects__modal-description">
                     {project.description.map((paragraph, index) => (

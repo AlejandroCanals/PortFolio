@@ -122,7 +122,7 @@
     width: 550px;
     position: relative;
     background-color: var(--container-color);
-    padding: 4.5rem 2.5rem 2.5rem;
+    padding: 1.5rem 0rem;
     border-radius: 1.5rem;
 
 }
@@ -132,7 +132,7 @@
     gap: 5px;
     margin-top: 10px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 .projects__modal-close {
     position: absolute;

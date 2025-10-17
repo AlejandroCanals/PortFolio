@@ -37,6 +37,15 @@
     "technologies": "Tecnologías Usadas",
     "list": [
       {
+        "title": "AlbionTopBuilds",
+        "description": [
+          "🔧 Desarrollo completo de una plataforma web centrada en el análisis y visualización de builds PvP del juego Albion Online. Implementada con Laravel, Inertia.js, React y Tailwind CSS, integra datos dinámicos procedentes de la API oficial del juego para generar estadísticas de builds, rankings y tasas de victoria en distintos modos de juego.",
+          "👨‍💻Configuré e instalé desde cero un servidor en Ubuntu, gestionando el entorno de producción mediante Docker y Coolify para un despliegue automatizado, seguro y escalable.",
+          "🚀 La arquitectura está optimizada para rendimiento y SEO, con métricas en tiempo real, sistema de “likes”, filtros interactivos y una interfaz moderna adaptada a escritorio y móvil."
+        ],
+        "technologies": ["HTML", "CSS", "Tailwind", "React", "Laravel", "Inertia","Docker","Coolify"]
+      },
+      {
         "title": "Formación en Hipnosis",
         "description": [
           "📘 Web desarrollada en Anelis Network para promocionar formación en hipnosis.",
@@ -81,15 +90,6 @@
           "🎟️ Sistema interactivo de compra de boletos."
         ],
         "technologies": ["HTML", "SCSS", "JavaScript", "Gulp"]
-      },
-      {
-        "title": "Blog de Café",
-        "description": [
-          "☕ Blog sobre café desarrollado para mejorar habilidades en HTML, CSS y JavaScript.",
-          "📱 Diseño responsive para una excelente experiencia en móviles.",
-          "📖 Artículos interesantes sobre tipos de café y técnicas de preparación."
-        ],
-        "technologies": ["HTML", "CSS", "JavaScript"]
       }
     ]
   },
