@@ -5,12 +5,12 @@ import { useTranslation } from "react-i18next";
 // Importar imágenes
 import GestorImg from "../../assets/projects/GestorReparaciones.png";
 import MultitareaImg from "../../assets/projects/MultitaskApp.png";
-import FestivalImg from "../../assets/projects/Festival.png";
-import BlogCafeImg from "../../assets/projects/BlogCafe.png";
-import BienesRaicesImg from "../../assets/projects/BienesRaices.png";
+import FestivalImg from "../../assets/projects/Festival.webp";
+import BlogCafeImg from "../../assets/projects/BlogCafe.webp";
+import BienesRaicesImg from "../../assets/projects/BienesRaices.webp";
 import MacbookImg from "../../assets/projects/Macbook.png";
 import FormacionHipnosis from "../../assets/projects/FormacionHipnosis.jpg";
-import AlbionApp from "../../assets/projects/AlbionApp.png";
+import AlbionApp from "../../assets/projects/AlbionApp.webp";
 
 function Projects() {
   const { t } = useTranslation(); // 🔹 Hook para traducción
