@@ -1,5 +1,5 @@
 import "./electronica.css";
-import Electronica from "../../assets/Proyectos/Electronica.svg";
+import Electronica from "../../assets/projects/Electronica.svg";
 import { useTranslation } from "react-i18next";
 
 const videos = [
