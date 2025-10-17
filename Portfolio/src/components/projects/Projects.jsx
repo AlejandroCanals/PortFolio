@@ -3,14 +3,14 @@ import "./projects.css";
 import { useTranslation } from "react-i18next";
 
 // Importar imágenes
-import GestorImg from "../../assets/Proyectos/GestorReparaciones.png";
-import MultitareaImg from "../../assets/Proyectos/MultitaskApp.png";
-import FestivalImg from "../../assets/Proyectos/Festival.png";
-import BlogCafeImg from "../../assets/Proyectos/BlogCafe.png";
-import BienesRaicesImg from "../../assets/Proyectos/BienesRaices.png";
-import MacbookImg from "../../assets/Proyectos/Macbook.png";
-import FormacionHipnosis from "../../assets/Proyectos/FormacionHipnosis.jpg";
-import AlbionApp from "../../assets/Proyectos/AlbionApp.png";
+import GestorImg from "../../assets/projects/GestorReparaciones.png";
+import MultitareaImg from "../../assets/projects/MultitaskApp.png";
+import FestivalImg from "../../assets/projects/Festival.png";
+import BlogCafeImg from "../../assets/projects/BlogCafe.png";
+import BienesRaicesImg from "../../assets/projects/BienesRaices.png";
+import MacbookImg from "../../assets/projects/Macbook.png";
+import FormacionHipnosis from "../../assets/projects/FormacionHipnosis.jpg";
+import AlbionApp from "../../assets/projects/AlbionApp.png";
 
 function Projects() {
   const { t } = useTranslation(); // 🔹 Hook para traducción
