@@ -20,7 +20,7 @@
   },
   "about": {
     "title": "About Me",
-    "description1": "I currently work as a junior full-stack developer at a company, where I use technologies such as PHP, JavaScript, SQL, HTML, CSS, and Bootstrap, as well as platforms like WordPress and PrestaShop.",
+    "description1": "Full-stack developer with experience in PHP, Laravel, JavaScript, SQL, HTML, CSS, and n8n. I have also worked with platforms such as WordPress and PrestaShop. I’m currently continuing to learn and develop personal projects using modern technologies like React, Next.js, Python, and Django, with the goal of continuously growing as a professional.",
     "description2": "In my free time, I continue expanding my knowledge in React Native and Node.js, developing personal projects to improve my skills and explore new technologies.",
     "cv_button": "Download CV"
   },
@@ -34,6 +34,15 @@
     "video_button": "Watch video",
     "technologies": "Technologies Used",
     "list": [
+      {
+        "title": "AlbionTopBuilds",
+        "description": [
+          "🔧 Full development of a web platform focused on the analysis and visualization of PvP builds for the game Albion Online. Built with Laravel, Inertia.js, React, and Tailwind CSS, it integrates dynamic data from the game’s official API to generate build statistics, rankings, and win rates across different game modes.",
+          "👨‍💻Configured and deployed a server from scratch on Ubuntu, managing the production environment using Docker and Coolify for an automated, secure, and scalable deployment.",
+          "🚀 The architecture is optimized for performance and SEO, featuring real-time metrics, a like system, interactive filters, and a modern interface adapted for both desktop and mobile devices."
+        ],
+        "technologies": ["HTML", "CSS", "Tailwind", "React", "Laravel", "Inertia","Docker","Coolify"]
+      },
       {
         "title": "Hypnosis Training",
         "description": [

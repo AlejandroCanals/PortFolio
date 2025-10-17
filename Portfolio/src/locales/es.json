@@ -20,7 +20,7 @@
   },
   "about": {
     "title": "Sobre mí",
-    "description1": "Actualmente, trabajo como programador junior full-stack en una empresa, donde trabajo con tecnologías como PHP, JavaScript, SQL, HTML, CSS y Bootstrap, además de plataformas como WordPress y PrestaShop.",
+    "description1": "Desarrollador full-stack con experiencia en PHP, Laravel, JavaScript, SQL, HTML, CSS y n8n. También he trabajado con plataformas como WordPress y PrestaShop. Actualmente sigo formándome y desarrollando proyectos propios con tecnologías modernas como React, Next.js, Python y Django, con el objetivo de continuar creciendo profesionalmente.",
     "description2": "En mi tiempo libre, sigo ampliando mis conocimientos en React Native y Node.js, desarrollando proyectos personales para mejorar mis habilidades y explorar nuevas tecnologías.",
     "cv_button": "Descargar CV"
   },
@@ -129,7 +129,7 @@
         {
           "title": "Programador Junior Full Stack",
           "institution": "Anelis Network - Alicante",
-          "year": "2024/09 - Presente"
+          "year": "2024/09 - 2025/10"
         }
       ]
     }
