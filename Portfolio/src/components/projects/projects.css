@@ -26,7 +26,7 @@
     width: 100%;
     max-width: 448px;
     aspect-ratio: 16 / 10;
-    background: url(/src/assets/Proyectos/Macbook.png) no-repeat center center;
+    background: url(/src/assets/projects/Macbook.png) no-repeat center center;
     background-size: contain;
     display: flex;
     align-items: center;
