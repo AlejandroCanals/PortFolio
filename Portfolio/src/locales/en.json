@@ -20,8 +20,8 @@
   },
   "about": {
     "title": "About Me",
-    "description1": "Full-stack developer with experience in PHP, Laravel, JavaScript, SQL, HTML, CSS, and n8n. I have also worked with platforms such as WordPress and PrestaShop. I’m currently continuing to learn and develop personal projects using modern technologies like React, Next.js, Python, and Django, with the goal of continuously growing as a professional.",
-    "description2": "In my free time, I continue expanding my knowledge in React Native and Node.js, developing personal projects to improve my skills and explore new technologies.",
+    "description1": "Full-stack developer with experience in PHP, Laravel, JavaScript, SQL, HTML, CSS, and n8n. I have also worked with platforms such as WordPress and PrestaShop.",
+    "description2": "I am currently continuing my training and developing my own projects with modern technologies such as React, Next.js, Node.js, React Native, Python, and Django, with the goal of continuing to grow professionally.",
     "cv_button": "Download CV"
   },
   "skills": {

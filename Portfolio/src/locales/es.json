@@ -13,15 +13,15 @@
     "contact": "Contacto"
   },
   "home": {
-    "title": "Desarrollador FullStack Jr.",
+    "title": "Desarrollador FullStack",
     "description": "Soy un apasionado autodidacta de la programación, comprometido con el aprendizaje continuo y la resolución creativa de problemas.",
     "contact_button": "Ponerse en contacto",
     "scroll_down": "Desplázate hacia abajo"
   },
   "about": {
     "title": "Sobre mí",
-    "description1": "Desarrollador full-stack con experiencia en PHP, Laravel, JavaScript, SQL, HTML, CSS y n8n. También he trabajado con plataformas como WordPress y PrestaShop. Actualmente sigo formándome y desarrollando proyectos propios con tecnologías modernas como React, Next.js, Python y Django, con el objetivo de continuar creciendo profesionalmente.",
-    "description2": "En mi tiempo libre, sigo ampliando mis conocimientos en React Native y Node.js, desarrollando proyectos personales para mejorar mis habilidades y explorar nuevas tecnologías.",
+    "description1": "Desarrollador full-stack con experiencia en PHP, Laravel, JavaScript, SQL, HTML, CSS y n8n. También he trabajado con plataformas como WordPress y PrestaShop.",
+    "description2": "Actualmente sigo formándome y desarrollando proyectos propios con tecnologías modernas como React, Next.js, Node.js, React Native, Python y Django, con el objetivo de continuar creciendo profesionalmente",
     "cv_button": "Descargar CV"
   },
   "skills": {
