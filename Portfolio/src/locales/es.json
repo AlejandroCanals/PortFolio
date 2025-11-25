@@ -32,64 +32,62 @@
   },
   "projects": {
     "title": "Proyectos",
-    "description_button": "Descripción",
-    "video_button": "Ver video",
-    "technologies": "Tecnologías Usadas",
+    "technologies": "Tecnologías usadas",
+    "filters": {
+      "all": "Todos",
+      "custom": "Código a medida",
+      "wordpress": "WordPress",
+      "prestashop": "PrestaShop"
+    },
     "list": [
       {
         "title": "AlbionTopBuilds",
         "description": [
-          "🔧 Desarrollo completo de una plataforma web centrada en el análisis y visualización de builds PvP del juego Albion Online. Implementada con Laravel, Inertia.js, React y Tailwind CSS, integra datos dinámicos procedentes de la API oficial del juego para generar estadísticas de builds, rankings y tasas de victoria en distintos modos de juego.",
-          "👨‍💻Configuré e instalé desde cero un servidor en Ubuntu, gestionando el entorno de producción mediante Docker y Coolify para un despliegue automatizado, seguro y escalable.",
-          "🚀 La arquitectura está optimizada para rendimiento y SEO, con métricas en tiempo real, sistema de “likes”, filtros interactivos y una interfaz moderna adaptada a escritorio y móvil."
+          "Plataforma para Albion Online con estadísticas en tiempo real usando la API oficial. Se despliega en Docker + Coolify sobre Ubuntu para automatizar releases y escalar sin fricción."
         ],
-        "technologies": ["HTML", "CSS", "Tailwind", "React", "Laravel", "Inertia","Docker","Coolify"]
+        "technologies": ["HTML", "CSS", "Tailwind", "React", "Laravel", "Inertia", "Docker", "Coolify"]
       },
       {
         "title": "Formación en Hipnosis",
         "description": [
-          "📘 Web desarrollada en Anelis Network para promocionar formación en hipnosis.",
-          "🚀 Implementé un diseño estructurado y una navegación intuitiva para mejorar la experiencia del usuario.",
-          "📱 Diseño responsive para una navegación fluida y accesible."
+          "Sitio corporativo a medida en PHP y JavaScript para promocionar cursos de hipnosis. Incluye narrativa guiada, formularios de contacto y un diseño responsive optimizado para SEO."
         ],
         "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP"]
       },
       {
         "title": "Gestor Reparaciones",
         "description": [
-          "💡 La idea surge de mi experiencia como técnico en reparaciones electrónicas donde las incidencias se trabajaban con Excel y en mi opinión no cubrían las necesidades del trabajo.",
-          "👨‍💻 Permite crear, leer, actualizar y eliminar informes de incidencias, además de asignar técnicos a cada reparación.",
-          "🔧 Incluye un seguimiento automatizado de las mismas."
+          "CRM que digitaliza incidencias y asigna técnicos desde un panel React + Django. Automatiza estados, notificaciones y reportes para todo el equipo."
         ],
         "technologies": ["HTML", "CSS", "Tailwind", "React", "Python y Django"]
       },
       {
         "title": "App Multitarea",
         "description": [
-          "📥 Esta aplicación permite descargar videos y audios de YouTube.",
-          "🎨 Elimina fondos de imágenes con un solo clic.",
-          "📄 Fusiona múltiples PDFs en un solo archivo.",
-          "¡Todo en una única aplicación fácil de usar!"
+          "Suite web que descarga vídeos, limpia fondos y fusiona PDFs desde una sola interfaz. Flask coordina los servicios para entregar resultados rápidos y seguros."
         ],
         "technologies": ["HTML", "CSS", "Python", "Flask"]
       },
       {
         "title": "Venta de Inmuebles",
         "description": [
-          "🏡 Plataforma web para la venta y promoción de propiedades inmobiliarias.",
-          "📖 Incluye un blog informativo sobre el sector inmobiliario.",
-          "🔎 Búsqueda optimizada de inmuebles y gestión sencilla."
+          "Marketplace inmobiliario con fichas autogestionables, blog y buscador optimizado. Formularios conectados a CRM centralizan leads y seguimientos."
         ],
         "technologies": ["HTML", "SCSS", "JavaScript", "PHP"]
       },
       {
         "title": "Web Festival",
         "description": [
-          "🎵 Página web de un festival con venta de entradas y diseño responsive.",
-          "🎨 Implementa Sass (SCSS) para una mejor gestión del estilo.",
-          "🎟️ Sistema interactivo de compra de boletos."
+          "Micrositio de festival con horarios, artistas y venta de entradas mobile-first. Componentes SCSS modulares y animaciones JS mantienen la experiencia fluida."
         ],
         "technologies": ["HTML", "SCSS", "JavaScript", "Gulp"]
+      },
+      {
+        "title": "Blog de Café",
+        "description": [
+          "Blog temático de café en WordPress para publicar artículos y recetas con agilidad. El layout responsive está pensado para lecturas breves desde móvil."
+        ],
+        "technologies": ["HTML", "CSS", "JavaScript"]
       }
     ]
   },

@@ -30,71 +30,60 @@
   },
   "projects": {
     "title": "Projects",
-    "description_button": "Description",
-    "video_button": "Watch video",
-    "technologies": "Technologies Used",
+    "technologies": "Technologies used",
+    "filters": {
+      "all": "All",
+      "custom": "Custom code",
+      "wordpress": "WordPress",
+      "prestashop": "PrestaShop"
+    },
     "list": [
       {
         "title": "AlbionTopBuilds",
         "description": [
-          "🔧 Full development of a web platform focused on the analysis and visualization of PvP builds for the game Albion Online. Built with Laravel, Inertia.js, React, and Tailwind CSS, it integrates dynamic data from the game’s official API to generate build statistics, rankings, and win rates across different game modes.",
-          "👨‍💻Configured and deployed a server from scratch on Ubuntu, managing the production environment using Docker and Coolify for an automated, secure, and scalable deployment.",
-          "🚀 The architecture is optimized for performance and SEO, featuring real-time metrics, a like system, interactive filters, and a modern interface adapted for both desktop and mobile devices."
+          "PvP build platform for Albion Online with real-time stats powered by the official API. Runs on Docker + Coolify over Ubuntu to automate releases and scale effortlessly."
         ],
-        "technologies": ["HTML", "CSS", "Tailwind", "React", "Laravel", "Inertia","Docker","Coolify"]
+        "technologies": ["HTML", "CSS", "Tailwind", "React", "Laravel", "Inertia", "Docker", "Coolify"]
       },
       {
         "title": "Hypnosis Training",
         "description": [
-          "📘 Website developed at Anelis Network to promote hypnosis training.",
-          "🚀 Implemented structured design and intuitive navigation.",
-          "📱 Responsive design for seamless browsing."
+          "Custom PHP and JavaScript site that promotes hypnosis courses through guided storytelling. Responsive layout plus focused SEO help capture qualified leads."
         ],
         "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP"]
       },
       {
         "title": "Repair Manager",
         "description": [
-          "💡 The idea came from my experience as an electronic repair technician where incidents were managed with Excel, which in my opinion did not meet work needs.",
-          "👨‍💻 Allows you to create, read, update, and delete incident reports, as well as assign technicians to each repair.",
-          "🔧 Includes an automated tracking system."
+          "Custom CRM that digitizes repair tickets and assigns technicians from a React + Django dashboard. Automates statuses, notifications, and reports for the whole team."
         ],
         "technologies": ["HTML", "CSS", "Tailwind", "React", "Python and Django"]
       },
       {
         "title": "Multitask App",
         "description": [
-          "📥 This application allows downloading videos and audios from YouTube.",
-          "🎨 Removes image backgrounds with a single click.",
-          "📄 Merges multiple PDFs into a single file.",
-          "All in one easy-to-use application!"
+          "Web toolbox that downloads videos, removes backgrounds, and merges PDFs in one flow. Flask orchestrates the services to keep the workflow fast and reliable."
         ],
         "technologies": ["HTML", "CSS", "Python", "Flask"]
       },
       {
         "title": "Real Estate Sales",
         "description": [
-          "🏡 Web platform for selling and promoting real estate properties.",
-          "📖 Includes an informative blog about the real estate sector.",
-          "🔎 Optimized property search and easy management."
+          "Self-managed property catalog with listings, blog, optimized search, and CRM-ready forms. Every lead and follow-up stays centralized from the start."
         ],
         "technologies": ["HTML", "SCSS", "JavaScript", "PHP"]
       },
       {
         "title": "Festival Website",
         "description": [
-          "🎵 Festival website with ticket sales and responsive design.",
-          "🎨 Implements Sass (SCSS) for better style management.",
-          "🎟️ Interactive ticket purchase system."
+          "Festival microsite with schedules, lineup, and ticket sales, built mobile-first with modular SCSS and lightweight JS animations."
         ],
         "technologies": ["HTML", "SCSS", "JavaScript", "Gulp"]
       },
       {
         "title": "Coffee Blog",
         "description": [
-          "☕ Coffee blog developed to improve skills in HTML, CSS, and JavaScript.",
-          "📱 Responsive design for a great mobile experience.",
-          "📖 Interesting articles on types of coffee and brewing techniques."
+          "Coffee-themed WordPress blog designed to publish articles and recipes quickly. Responsive reading experience keeps mobile sessions comfortable."
         ],
         "technologies": ["HTML", "CSS", "JavaScript"]
       }
