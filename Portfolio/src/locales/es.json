@@ -45,49 +45,114 @@
         "description": [
           "Plataforma para Albion Online con estadísticas en tiempo real usando la API oficial. Se despliega en Docker + Coolify sobre Ubuntu para automatizar releases y escalar sin fricción."
         ],
-        "technologies": ["HTML", "CSS", "Tailwind", "React", "Laravel", "Inertia", "Docker", "Coolify"]
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Tailwind",
+          "React",
+          "Laravel",
+          "Inertia",
+          "Docker",
+          "Coolify",
+          "MySQL"
+        ]
       },
       {
         "title": "Formación en Hipnosis",
         "description": [
           "Sitio corporativo a medida en PHP y JavaScript para promocionar cursos de hipnosis. Incluye narrativa guiada, formularios de contacto y un diseño responsive optimizado para SEO."
         ],
-        "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP"]
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "JavaScript",
+          "PHP",
+          "MySQL"
+        ]
       },
       {
         "title": "Gestor Reparaciones",
         "description": [
           "CRM que digitaliza incidencias y asigna técnicos desde un panel React + Django. Automatiza estados, notificaciones y reportes para todo el equipo."
         ],
-        "technologies": ["HTML", "CSS", "Tailwind", "React", "Python y Django"]
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Tailwind",
+          "React",
+          "Django",
+          "MySQL"
+        ]
       },
       {
         "title": "App Multitarea",
         "description": [
           "Suite web que descarga vídeos, limpia fondos y fusiona PDFs desde una sola interfaz. Flask coordina los servicios para entregar resultados rápidos y seguros."
         ],
-        "technologies": ["HTML", "CSS", "Python", "Flask"]
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Python",
+          "Flask"
+        ]
       },
       {
-        "title": "Venta de Inmuebles",
+        "title": "Piercing Deni",
         "description": [
-          "Marketplace inmobiliario con fichas autogestionables, blog y buscador optimizado. Formularios conectados a CRM centralizan leads y seguimientos."
+          "Tienda online dedicada a la venta de pendientes, desarrollada durante mi etapa en Anelis Network en PrestaShop, con módulos personalizados, migración completa y estructuración del catálogo y del diseño."
         ],
-        "technologies": ["HTML", "SCSS", "JavaScript", "PHP"]
+        "technologies": [
+          "Smarty",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "MySQL",
+          "PHP",
+          "PrestaShop"
+        ]
       },
       {
-        "title": "Web Festival",
+        "title": "La Maison del Cabello",
         "description": [
-          "Micrositio de festival con horarios, artistas y venta de entradas mobile-first. Componentes SCSS modulares y animaciones JS mantienen la experiencia fluida."
+          "Tienda online de venta de pelucas, con migración completa de WordPress a PrestaShop y réplica del diseño original mediante código a medida."
         ],
-        "technologies": ["HTML", "SCSS", "JavaScript", "Gulp"]
+        "technologies": [
+          "Smarty",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "MySQL",
+          "PHP",
+          "PrestaShop"
+        ]
       },
       {
-        "title": "Blog de Café",
+        "title": "Libera Tu Potencial",
         "description": [
-          "Blog temático de café en WordPress para publicar artículos y recetas con agilidad. El layout responsive está pensado para lecturas breves desde móvil."
+          "Landing page desarrollada durante mi etapa en Anelis Network para un proyecto de apoyo a personas con adicciones, enfocada en ofrecer información clara, accesible y orientada a la ayuda personal."
         ],
-        "technologies": ["HTML", "CSS", "JavaScript"]
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "JavaScript",
+          "PHP"
+        ]
+      },
+      {
+        "title": "Intranet Zenter",
+        "description": [
+          "Proyecto interno desarrollado durante mi etapa en Anelis Network, donde realicé un refactor de los listados sustituyendo código legado por paginación y peticiones AJAX, mejorando notablemente el rendimiento."
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "JavaScript",
+          "PHP",
+          "MySQL"
+        ]
       }
     ]
   },
@@ -152,16 +217,16 @@
     "send_button": "Enviar mensaje"
   },
   "cookies": {
-  "banner_text": "Usamos cookies para mejorar tu experiencia en nuestro sitio web. Puedes aceptar todas, rechazarlas o configurar tus preferencias.",
-  "accept_all": "Aceptar todas",
-  "reject": "Rechazar",
-  "configure": "Configurar Cookies",
-  "settings_title": "Configurar Cookies",
-  "necessary": "Cookies Necesarias (Siempre activadas)",
-  "analytics": "Cookies de Análisis",
-  "marketing": "Cookies de Marketing",
-  "save_preferences": "Guardar Preferencias",
-  "cancel": "Cancelar"
+    "banner_text": "Usamos cookies para mejorar tu experiencia en nuestro sitio web. Puedes aceptar todas, rechazarlas o configurar tus preferencias.",
+    "accept_all": "Aceptar todas",
+    "reject": "Rechazar",
+    "configure": "Configurar Cookies",
+    "settings_title": "Configurar Cookies",
+    "necessary": "Cookies Necesarias (Siempre activadas)",
+    "analytics": "Cookies de Análisis",
+    "marketing": "Cookies de Marketing",
+    "save_preferences": "Guardar Preferencias",
+    "cancel": "Cancelar"
   },
   "privacy_policy": {
     "title": "Política de Privacidad",
@@ -182,7 +247,8 @@
       "title": "4. Contacto",
       "content": "Si tienes preguntas sobre esta política de privacidad, puedes contactarnos en: [Tu email o formulario de contacto]."
     }
-  },  "privacy_policy": {
+  },
+  "privacy_policy": {
     "title": "Política de Privacidad",
     "last_updated": "Última actualización: [Fecha]",
     "section1": {
@@ -225,7 +291,7 @@
     }
   },
   "footer": {
-  "privacy_policy": "Política de Privacidad",
-  "cookie_policy": "Política de Cookies"
+    "privacy_policy": "Política de Privacidad",
+    "cookie_policy": "Política de Cookies"
   }
-} 
+}

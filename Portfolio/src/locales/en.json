@@ -43,49 +43,96 @@
         "description": [
           "PvP build platform for Albion Online with real-time stats powered by the official API. Runs on Docker + Coolify over Ubuntu to automate releases and scale effortlessly."
         ],
-        "technologies": ["HTML", "CSS", "Tailwind", "React", "Laravel", "Inertia", "Docker", "Coolify"]
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Tailwind",
+          "React",
+          "Laravel",
+          "Inertia",
+          "Docker",
+          "Coolify"
+        ]
       },
       {
         "title": "Hypnosis Training",
         "description": [
           "Custom PHP and JavaScript site that promotes hypnosis courses through guided storytelling. Responsive layout plus focused SEO help capture qualified leads."
         ],
-        "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP"]
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "JavaScript",
+          "PHP"
+        ]
       },
       {
         "title": "Repair Manager",
         "description": [
           "Custom CRM that digitizes repair tickets and assigns technicians from a React + Django dashboard. Automates statuses, notifications, and reports for the whole team."
         ],
-        "technologies": ["HTML", "CSS", "Tailwind", "React", "Python and Django"]
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Tailwind",
+          "React",
+          "Python and Django"
+        ]
       },
       {
         "title": "Multitask App",
         "description": [
           "Web toolbox that downloads videos, removes backgrounds, and merges PDFs in one flow. Flask orchestrates the services to keep the workflow fast and reliable."
         ],
-        "technologies": ["HTML", "CSS", "Python", "Flask"]
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Python",
+          "Flask"
+        ]
       },
       {
-        "title": "Real Estate Sales",
+        "title": "Piercing Deni",
         "description": [
-          "Self-managed property catalog with listings, blog, optimized search, and CRM-ready forms. Every lead and follow-up stays centralized from the start."
+          "Online store dedicated to selling earrings, developed during my time at Anelis Network using PrestaShop, including custom modules, full migration, and complete catalog and design structuring."
         ],
-        "technologies": ["HTML", "SCSS", "JavaScript", "PHP"]
+        "technologies": [
+          "Smarty",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "PrestaShop"
+        ]
       },
       {
-        "title": "Festival Website",
+        "title": "La Maison del Cabello",
         "description": [
-          "Festival microsite with schedules, lineup, and ticket sales, built mobile-first with modular SCSS and lightweight JS animations."
+          "Online store for wig sales, featuring a full migration from WordPress to PrestaShop and a custom-coded replica of the original WordPress design."
         ],
-        "technologies": ["HTML", "SCSS", "JavaScript", "Gulp"]
+        "technologies": [
+          "Smarty",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "MySQL",
+          "PHP",
+          "PrestaShop"
+        ]
       },
       {
-        "title": "Coffee Blog",
+        "title": "Libera Tu Potencial",
         "description": [
-          "Coffee-themed WordPress blog designed to publish articles and recipes quickly. Responsive reading experience keeps mobile sessions comfortable."
+          "Landing page developed during my time at Anelis Network for a project aimed at supporting individuals with addictions, focused on providing clear, accessible and guidance-oriented information."
         ],
-        "technologies": ["HTML", "CSS", "JavaScript"]
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "JavaScript",
+          "PHP"
+        ]
       }
     ]
   },
@@ -150,16 +197,16 @@
     "send_button": "Send Message"
   },
   "cookies": {
-  "banner_text": "We use cookies to enhance your experience on our website. You can accept all, reject them, or configure your preferences.",
-  "accept_all": "Accept All",
-  "reject": "Reject",
-  "configure": "Configure Cookies",
-  "settings_title": "Configure Cookies",
-  "necessary": "Necessary Cookies (Always enabled)",
-  "analytics": "Analytics Cookies",
-  "marketing": "Marketing Cookies",
-  "save_preferences": "Save Preferences",
-  "cancel": "Cancel"
+    "banner_text": "We use cookies to enhance your experience on our website. You can accept all, reject them, or configure your preferences.",
+    "accept_all": "Accept All",
+    "reject": "Reject",
+    "configure": "Configure Cookies",
+    "settings_title": "Configure Cookies",
+    "necessary": "Necessary Cookies (Always enabled)",
+    "analytics": "Analytics Cookies",
+    "marketing": "Marketing Cookies",
+    "save_preferences": "Save Preferences",
+    "cancel": "Cancel"
   },
   "privacy_policy": {
     "title": "Privacy Policy",
@@ -207,5 +254,4 @@
     "privacy_policy": "Privacy Policy",
     "cookie_policy": "Cookie Policy"
   }
-
 }

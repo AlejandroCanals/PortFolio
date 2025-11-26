@@ -6,10 +6,11 @@ import AlbionApp from "../../assets/projects/AlbionApp.webp";
 import FormacionHipnosis from "../../assets/projects/FormacionHipnosis.jpg";
 import GestorImg from "../../assets/projects/GestorReparaciones.png";
 import MultitareaImg from "../../assets/projects/MultitaskApp.png";
-import BienesRaicesImg from "../../assets/projects/BienesRaices.webp";
-import FestivalImg from "../../assets/projects/Festival.webp";
-import BlogCafeImg from "../../assets/projects/BlogCafe.webp";
 import MacbookImg from "../../assets/projects/Macbook.png";
+import PiercingDeniImg from "../../assets/projects/PiercingDeni.webp";
+import LamaisonDelCabelloImg from "../../assets/projects/LamaisonDelCabello.webp";
+import LiberaTuPotencialImg from "../../assets/projects/LiberaTuPotencial.webp";
+import IntranetImg from "../../assets/projects/IntranetZenter.webp";
 
 const filters = ["all", "custom", "wordpress", "prestashop"];
 
@@ -40,20 +41,26 @@ const projectBlueprint = [
   },
   {
     id: 5,
-    image: BienesRaicesImg,
-    link: "https://bienesraices.com",
-    category: "custom",
+    image: PiercingDeniImg,
+    link: "https://piercingdeni.com",
+    category: "prestashop",
   },
   {
     id: 6,
-    image: FestivalImg,
-    link: "https://music-festivaal.netlify.app",
-    category: "custom",
+    image: LamaisonDelCabelloImg,
+    link: "https://lamaisondelcabello.es",
+    category: "prestashop",
   },
   {
     id: 7,
-    image: BlogCafeImg,
-    link: "https://articulosdecafe.netlify.app/",
+    image: LiberaTuPotencialImg,
+    link: "https://liberatupotencial.net",
+    category: "custom",
+  },
+  {
+    id: 8,
+    image: IntranetImg,
+    link: "https://intranetzenter.com/",
     category: "custom",
   },
 ];
