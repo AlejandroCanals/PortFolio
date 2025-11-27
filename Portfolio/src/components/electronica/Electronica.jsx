@@ -1,5 +1,5 @@
 import "./electronica.css";
-import Electronica from "../../assets/projects/Electronica.svg";
+import Electronica from "../../assets/projects/electronica.svg";
 import { useTranslation } from "react-i18next";
 
 const videos = [
@@ -27,19 +27,19 @@ const Videos = () => {
     <section className="electronica__section section" id="electronica">
       <h2 className="section__title">{t("electronics.title")}</h2>
       <div className="about__container container grid video__container">
-        <img  alt="Imagen ilustrativa de un técnico" className="about__img"  src={Electronica}/>
+        <img alt="Imagen ilustrativa de un técnico" className="about__img" src={Electronica} />
 
         <div className="about__data">
           <p className="about__description">
-          {t("electronics.description1")}</p>
+            {t("electronics.description1")}</p>
           <p className="about__description">
-          {t("electronics.description2")}
+            {t("electronics.description2")}
           </p>
           <p className="about__description">
-          {t("electronics.description3")}
+            {t("electronics.description3")}
           </p>
           <p className="about__description">
-          {t("electronics.description4")}
+            {t("electronics.description4")}
           </p>
         </div>
       </div>

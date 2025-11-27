@@ -2,15 +2,15 @@ import { useState } from "react";
 import "./projects.css";
 import { useTranslation } from "react-i18next";
 
-import AlbionApp from "../../assets/projects/AlbionApp.webp";
-import FormacionHipnosis from "../../assets/projects/FormacionHipnosis.jpg";
-import GestorImg from "../../assets/projects/GestorReparaciones.png";
-import MultitareaImg from "../../assets/projects/MultitaskApp.png";
-import MacbookImg from "../../assets/projects/Macbook.png";
-import PiercingDeniImg from "../../assets/projects/PiercingDeni.webp";
-import LamaisonDelCabelloImg from "../../assets/projects/LamaisonDelCabello.webp";
-import LiberaTuPotencialImg from "../../assets/projects/LiberaTuPotencial.webp";
-import IntranetImg from "../../assets/projects/IntranetZenter.webp";
+import AlbionApp from "../../assets/projects/albion-app.webp";
+import FormacionHipnosis from "../../assets/projects/formacion-hipnosis.jpg";
+import GestorImg from "../../assets/projects/gestor-reparaciones.png";
+import MultitareaImg from "../../assets/projects/multitask-app.png";
+import MacbookImg from "../../assets/projects/macbook.png";
+import PiercingDeniImg from "../../assets/projects/piercing-deni.webp";
+import LaMaisonDelCabelloImg from "../../assets/projects/la-maison-del-cabello.webp";
+import LiberaTuPotencialImg from "../../assets/projects/libera-tu-potencial.webp";
+import IntranetImg from "../../assets/projects/intranet-zenter.webp";
 
 const filters = ["all", "custom", "wordpress", "prestashop"];
 
@@ -47,7 +47,7 @@ const projectBlueprint = [
   },
   {
     id: 6,
-    image: LamaisonDelCabelloImg,
+    image: LaMaisonDelCabelloImg,
     link: "https://lamaisondelcabello.es",
     category: "prestashop",
   },
