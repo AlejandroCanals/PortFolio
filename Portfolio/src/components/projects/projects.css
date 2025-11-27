@@ -1,6 +1,7 @@
-.projects{
+.projects {
     background-color: var(--container-color);
 }
+
 .projects__container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -23,7 +24,7 @@
     box-shadow: 0 15px 30px rgba(15, 23, 42, 0.08);
 }
 
-.projects__content:hover{
+.projects__content:hover {
     transform: translateY(-5px);
     box-shadow: 0 20px 35px rgba(15, 23, 42, 0.12);
 }
@@ -33,7 +34,7 @@
     width: 100%;
     max-width: 448px;
     aspect-ratio: 16 / 10;
-    background: url(/src/assets/Proyectos/Macbook.png) no-repeat center center;
+    background: url(/src/assets/projects/macbook.png) no-repeat center center;
     background-size: contain;
     display: flex;
     align-items: center;
@@ -49,10 +50,10 @@
     height: 76%;
     object-fit: cover;
     border-radius: 4px;
-    box-shadow: inset 0 0 20px rgba(0,0,0,0.12);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.12);
 }
 
-.projects__body{
+.projects__body {
     width: 100%;
     margin-top: 1.5rem;
     display: flex;
@@ -60,7 +61,7 @@
     gap: 1rem;
 }
 
-.projects__header{
+.projects__header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +80,7 @@
     width: 100%;
 }
 
-.projects__category{
+.projects__category {
     padding: 0.35rem 0.75rem;
     border-radius: 999px;
     font-size: 0.75rem;
@@ -89,38 +90,38 @@
     white-space: nowrap;
 }
 
-.projects__category--wordpress{
+.projects__category--wordpress {
     background: rgba(30, 136, 229, 0.12);
     color: #1e88e5;
 }
 
-.projects__category--prestashop{
+.projects__category--prestashop {
     background: rgba(142, 36, 170, 0.12);
     color: #8e24aa;
 }
 
-.projects__category--custom{
+.projects__category--custom {
     background: rgba(0, 150, 136, 0.12);
     color: #009688;
 }
 
-.projects__description{
+.projects__description {
     color: var(--title-color-dark);
     font-size: 0.89rem;
     line-height: 1.6;
 }
 
-.projects__description p + p{
+.projects__description p+p {
     margin-top: 0.5rem;
 }
 
-.projects__tech-stack{
+.projects__tech-stack {
     display: flex;
     flex-direction: column;
     gap: 0.35rem;
 }
 
-.projects__tech-stack-title{
+.projects__tech-stack-title {
     font-size: 0.85rem;
     font-weight: var(--font-medium);
     color: var(--title-color);
@@ -128,14 +129,14 @@
     letter-spacing: 0.08em;
 }
 
-.projects__tech-tags{
+.projects__tech-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     justify-content: center;
 }
 
-.projects__tech-tag{
+.projects__tech-tag {
     padding: 0.35rem 0.85rem;
     border-radius: 999px;
     background: var(--body-color);
@@ -145,7 +146,7 @@
     color: var(--title-color-dark);
 }
 
-.projects__filters{
+.projects__filters {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -154,7 +155,7 @@
     width: 100%;
 }
 
-.projects__filter-btn{
+.projects__filter-btn {
     border: 1px solid rgba(30, 136, 229, 0.4);
     background: transparent;
     color: var(--title-color);
@@ -166,7 +167,7 @@
 }
 
 .projects__filter-btn.active,
-.projects__filter-btn:hover{
+.projects__filter-btn:hover {
     background: linear-gradient(120deg, #2b4c7e, #1e88e5);
     color: #fff;
     border-color: transparent;
@@ -192,20 +193,20 @@
 }
 
 @media screen and (max-width:768px) {
-    .projects__header{
+    .projects__header {
         flex-direction: column;
         align-items: center;
     }
 }
 
 @media screen and (max-width:576px) {
-    .projects__filters{
+    .projects__filters {
         flex-direction: column;
         align-items: stretch;
         gap: 0.5rem;
     }
 
-    .projects__filter-btn{
+    .projects__filter-btn {
         width: 100%;
         text-align: center;
         padding: 0.65rem 1rem;
